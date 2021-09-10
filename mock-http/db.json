@@ -1,0 +1,2384 @@
+{
+  "posts": [
+    {
+      "id": 178,
+      "date": "2021-09-09T11:02:49",
+      "date_gmt": "2021-09-09T11:02:49",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=178"
+      },
+      "modified": "2021-09-09T11:06:38",
+      "modified_gmt": "2021-09-09T11:06:38",
+      "slug": "my-expertise",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/my-expertise/",
+      "title": {
+        "rendered": "My expertise"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        6
+      ],
+      "tags": [],
+      "acf": {
+        "long_description": "<p>During my work experience I have developed various web applications, mainly working with the following technologies: Reactjs (both with React only and with Redux+Saga, now moving to React Hooks + Context API), Angular 2+ and AngularJS, plus obviously Jquery-html5-css3-js, (frontend side) and .Net technologies, such as Web API/Asp MVC &#8211; Entity Framework, Node.js + Express – Microsoft Sql server and MongoDB (backend side).</p>\n<p>I have worked also on mobile development projects, targeting Android platform mainly. Coming from a web-developer background it was a natural choice to select multi-platform technology web based as Cordova, with the support of Ionic Framework (using several plugins to reach native functionalities).</p>\n<p>In my first years I also developed Windows applications (mainly C# .Net with WPF), multi-platform applications (C++ Qt framework for Linux), often in the domain of cryptography and security, and I DLLs (C/C++ language) to communicate with external devices through API.</p>\n<p>I enjoy a lot working with Microsoft Visual Studio and Visual Studio Code, depending on the project! They are my favorite IDE. I also developed some project with Qt Creator and Borland/Embarcadero.</p>\n<p>I am passionate about my job!<br />\nI constantly train myself, mainly through online courses the evening after the work.</p>\n",
+        "tags_fe": "<div class=\"span4 skill_level\">\n<span class=\"labelMFO label_Web\">React.js</span><br />\n<span class=\"labelMFO label_Web\">React Redux</span><br />\n<span class=\"labelMFO label_Web\">React Hooks + Context API</span><br />\n<span class=\"labelMFO label_Web\">Typescrypt</span><br />\n<span class=\"labelMFO label_Web\">Angular js / 2+</span><br />\n<span class=\"labelMFO label_Web\">Node.js Web API</span><br />\n<span class=\"labelMFO label_Web\">.NET Web API</span><br />\n<span class=\"labelMFO label_Web\">ASP MVC</span><br />\n<span class=\"labelMFO label_Web\">HTML5 &#8211; CSS3 &#8211; JS</span><br />\n<span class=\"labelMFO label_Web\">Entity Framework</span><br />\n<span class=\"labelMFO label_Web\">MS SQL</span><br />\n<span class=\"labelMFO label_Web\">MongoDB</span><br />\n<span class=\"labelMFO label_Web\">AngularJs</span><br />\n<!-- <span class=\"labelMFO label_Web\">KnockoutJs</span> -->\n</div>\n",
+        "tags_ide": "<div class=\"span4 skill_level skill_level_IDE\"><span class=\"labelMFO label_IDE\">VS Code</span><br />\n<span class=\"labelMFO label_IDE\">Visual Studio</span><br />\n<span class=\"labelMFO label_IDE\">Qt Creator</span><br />\n<span class=\"labelMFO label_IDE\">Embarcadero</span></div>\n",
+        "tags_mobile": "<div class=\"span4 skill_level\"><span class=\"labelMFO label_Mobile\">Cordova</span><br />\n<span class=\"labelMFO label_Mobile\">Ionic</span><br />\n<span class=\"labelMFO label_Mobile\">Material Design</span><br />\n<span class=\"labelMFO label_Mobile\">VS Code</span><br />\n<span class=\"labelMFO label_Mobile\">Azure</span></div>\n",
+        "tags_devops": "",
+        "tags_tech_old": "<div class=\"span4 skill_level desktop_level\"><span class=\"labelMFO label_Desktop\">C#</span><br />\n<span class=\"labelMFO label_Desktop\">.NET</span><br />\n<span class=\"labelMFO label_Desktop\">Web API</span><br />\n<span class=\"labelMFO label_Desktop\">Cryptography</span><br />\n<span class=\"labelMFO label_Desktop\">C/C++</span></div>\n",
+        "tags_be": "<div class=\"span4 skill_level desktop_level\"><span class=\"labelMFO label_Desktop\">C#</span><br />\n<span class=\"labelMFO label_Desktop\">.NET</span><br />\n<span class=\"labelMFO label_Desktop\">Web API</span><br />\n<span class=\"labelMFO label_Desktop\">Cryptography</span><br />\n<span class=\"labelMFO label_Desktop\">C/C++</span></div>\n"
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/178"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=178"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 6,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/178/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 184,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/178/revisions/184"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=178"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=178"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=178"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 172,
+      "date": "2021-09-09T10:58:35",
+      "date_gmt": "2021-09-09T10:58:35",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=172"
+      },
+      "modified": "2021-09-09T11:00:29",
+      "modified_gmt": "2021-09-09T11:00:29",
+      "slug": "mario-fornaroli",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/mario-fornaroli/",
+      "title": {
+        "rendered": "Mario Fornaroli"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        5
+      ],
+      "tags": [],
+      "acf": {
+        "my_name": "MARIO FORNAROLI",
+        "role": "FULL STACK WEB DEVELOPER",
+        "main_personal_description": "Hi, I'm a software engineer and I love everything related to software development for web and mobile platforms.",
+        "longer_description": "<p>Hi, I graduated with a First in Electronic and ICT Engineering from the University of Pavia in Italy in 2009 and I got a High School Diploma in Computer Technology in 2006.</p>\n<p>I have a strong background in Information Technology as I carried out various IT projects during my professional experience.</p>\n<p>I am a passionate Web Developer (and a continuous learner) with 9 years of professional experience in different European cities.</p>\n",
+        "phone_number": "+39 3347385621",
+        "email": "mario.fornaroli@yahoo.it",
+        "address": "Via Toso Montanari, 22 Bologne, Italy",
+        "cv_pdf": {
+          "ID": 176,
+          "id": 176,
+          "title": "Mario_Fornaroli_CV",
+          "filename": "Mario_Fornaroli_CV.pdf",
+          "filesize": 58441,
+          "url": "https://18.191.143.30/wp-content/uploads/2021/09/Mario_Fornaroli_CV.pdf",
+          "link": "https://18.191.143.30/mario-fornaroli/mario_fornaroli_cv/",
+          "alt": "",
+          "author": "2",
+          "description": "",
+          "caption": "",
+          "name": "mario_fornaroli_cv",
+          "status": "inherit",
+          "uploaded_to": 172,
+          "date": "2021-09-09 11:00:18",
+          "modified": "2021-09-09 11:00:18",
+          "menu_order": 0,
+          "mime_type": "application/pdf",
+          "type": "application",
+          "subtype": "pdf",
+          "icon": "https://18.191.143.30/wp-includes/images/media/document.png"
+        }
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/172"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=172"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 4,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/172/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 177,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/172/revisions/177"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=172"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=172"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=172"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 170,
+      "date": "2021-09-09T10:57:29",
+      "date_gmt": "2021-09-09T10:57:29",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=170"
+      },
+      "modified": "2021-09-09T10:57:29",
+      "modified_gmt": "2021-09-09T10:57:29",
+      "slug": "istqb-certified-software-tester",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/istqb-certified-software-tester/",
+      "title": {
+        "rendered": "ISTQB Certified Software Tester"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        10
+      ],
+      "tags": [],
+      "acf": {
+        "title": null,
+        "location": null,
+        "date": null,
+        "name": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/170"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=170"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/170/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 171,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/170/revisions/171"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=170"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=170"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=170"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 168,
+      "date": "2021-09-09T10:57:00",
+      "date_gmt": "2021-09-09T10:57:00",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=168"
+      },
+      "modified": "2021-09-09T10:57:00",
+      "modified_gmt": "2021-09-09T10:57:00",
+      "slug": "c-fundamentals",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/c-fundamentals/",
+      "title": {
+        "rendered": "C# Fundamentals"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        10
+      ],
+      "tags": [],
+      "acf": {
+        "title": null,
+        "location": null,
+        "date": null,
+        "name": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/168"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=168"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/168/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 169,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/168/revisions/169"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=168"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=168"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=168"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 166,
+      "date": "2021-09-09T10:56:18",
+      "date_gmt": "2021-09-09T10:56:18",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=166"
+      },
+      "modified": "2021-09-09T10:56:18",
+      "modified_gmt": "2021-09-09T10:56:18",
+      "slug": "programming-in-c",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/programming-in-c/",
+      "title": {
+        "rendered": "Programming in C#"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        10
+      ],
+      "tags": [],
+      "acf": {
+        "title": null,
+        "location": null,
+        "date": null,
+        "name": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/166"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=166"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/166/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 167,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/166/revisions/167"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=166"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=166"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=166"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 164,
+      "date": "2021-09-09T10:55:14",
+      "date_gmt": "2021-09-09T10:55:14",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=164"
+      },
+      "modified": "2021-09-09T10:55:14",
+      "modified_gmt": "2021-09-09T10:55:14",
+      "slug": "spanish",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/spanish/",
+      "title": {
+        "rendered": "Spanish"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        8
+      ],
+      "tags": [],
+      "acf": {
+        "name": null,
+        "level": null,
+        "description": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/164"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=164"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/164/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 165,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/164/revisions/165"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=164"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=164"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=164"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 162,
+      "date": "2021-09-09T10:54:53",
+      "date_gmt": "2021-09-09T10:54:53",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=162"
+      },
+      "modified": "2021-09-09T10:54:53",
+      "modified_gmt": "2021-09-09T10:54:53",
+      "slug": "french",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/french/",
+      "title": {
+        "rendered": "French"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        8
+      ],
+      "tags": [],
+      "acf": {
+        "name": null,
+        "level": null,
+        "description": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/162"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=162"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/162/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 163,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/162/revisions/163"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=162"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=162"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=162"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 160,
+      "date": "2021-09-09T10:54:31",
+      "date_gmt": "2021-09-09T10:54:31",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=160"
+      },
+      "modified": "2021-09-09T10:54:31",
+      "modified_gmt": "2021-09-09T10:54:31",
+      "slug": "english",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/english/",
+      "title": {
+        "rendered": "English"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        8
+      ],
+      "tags": [],
+      "acf": {
+        "name": null,
+        "level": null,
+        "description": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/160"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=160"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/160/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 161,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/160/revisions/161"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=160"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=160"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=160"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 158,
+      "date": "2021-09-09T10:54:01",
+      "date_gmt": "2021-09-09T10:54:01",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=158"
+      },
+      "modified": "2021-09-09T10:54:01",
+      "modified_gmt": "2021-09-09T10:54:01",
+      "slug": "italian",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/italian/",
+      "title": {
+        "rendered": "Italian"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        8
+      ],
+      "tags": [],
+      "acf": {
+        "name": null,
+        "level": null,
+        "description": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/158"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=158"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/158/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 159,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/158/revisions/159"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=158"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=158"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=158"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 154,
+      "date": "2021-09-09T10:52:41",
+      "date_gmt": "2021-09-09T10:52:41",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=154"
+      },
+      "modified": "2021-09-09T10:53:20",
+      "modified_gmt": "2021-09-09T10:53:20",
+      "slug": "angular-5-asp-net-core-web-api",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/angular-5-asp-net-core-web-api/",
+      "title": {
+        "rendered": "Angular 5 + Asp.Net Core Web API"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        9
+      ],
+      "tags": [],
+      "acf": {
+        "title": "",
+        "short_description": "",
+        "long_description": "<div>Web application to ask for apartment estimation, fix appointment with an expert, chat with him, be notified about missing document and upload them, online estimation payment and estimation document download. It involves the following technologies:</div>\n<ul>\n<li>Angular5 front end (plus obviously HTML5-CSS3-JS and other common js libraries)</li>\n<li>ASP.NET Core 2.1 Web API with microservices backend to expose web services</li>\n<li>UX professionally designed by an external company</li>\n<li>Logging system to Elastic Search with Kibana</li>\n<li>Stripe platform for online payments</li>\n<li>IdentityServer Framework for Authorization/Authentication</li>\n<li>CRM Microsoft Dynamics integration as ticketing system</li>\n</ul>\n",
+        "image": false,
+        "date": "",
+        "tags": "<div class=\"projectLabels\"><span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Angular 5+</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Protractor</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">ASP.NET Core 2.1 Web API</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Microservices</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Stripe payments</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_LowLevelLanguage labelModal pull-left\">IdentityServer Framework</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Elastic Search</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Umbraco CMS integration</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">CRM Microsoft Dynamics</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">HTML5</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">CSS3</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Javascript</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_LowLevelLanguage labelModal pull-left\">Oracle db</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_LowLevelLanguage labelModal pull-left\">Entity Framework</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_LowLevelLanguage labelModal pull-left\">ADO .NET</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_IDE labelModal pull-left\">Visual Studio</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_IDE labelModal pull-left\">Swagger</span></div>\n",
+        "modal_long_description": ""
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/154"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=154"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 2,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/154/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 157,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/154/revisions/157"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=154"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=154"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=154"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 146,
+      "date": "2021-09-09T10:46:56",
+      "date_gmt": "2021-09-09T10:46:56",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=146"
+      },
+      "modified": "2021-09-09T10:51:26",
+      "modified_gmt": "2021-09-09T10:51:26",
+      "slug": "react-js-redux-saga-node-js-mondodb",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/react-js-redux-saga-node-js-mondodb/",
+      "title": {
+        "rendered": "React.js (Redux + Saga) + Node.js + MondoDb"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        9
+      ],
+      "tags": [],
+      "acf": {
+        "title": "React.js (Redux + Saga) + Node.js + MondoDb",
+        "short_description": "Web app - Dashboard to manage state of progress of various client's communications",
+        "long_description": "<div>Mainly list and details web application with minor crud operations to keep track of client&#8217;s internal official communications. It involves the following technologies:</div>\n<ul>\n<li>React.js (Redux + Saga)</li>\n<li>Node.js + Express + MongoDB</li>\n<li>Passport.js for Authorization/Authentication</li>\n<li>Ui developed from a commercial template</li>\n<li>E2E tests developed with Nightwatch.js</li>\n</ul>\n",
+        "image": {
+          "ID": 151,
+          "id": 151,
+          "title": "React_Redux_and_Node_Mongo",
+          "filename": "React_Redux_and_Node_Mongo.png",
+          "filesize": 768553,
+          "url": "https://18.191.143.30/wp-content/uploads/2021/09/React_Redux_and_Node_Mongo.png",
+          "link": "https://18.191.143.30/react-js-redux-saga-node-js-mondodb/react_redux_and_node_mongo/",
+          "alt": "React.js (Redux + Saga) + Node.js + MondoDb",
+          "author": "2",
+          "description": "",
+          "caption": "",
+          "name": "react_redux_and_node_mongo",
+          "status": "inherit",
+          "uploaded_to": 146,
+          "date": "2021-09-09 10:50:08",
+          "modified": "2021-09-09 10:50:20",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "type": "image",
+          "subtype": "png",
+          "icon": "https://18.191.143.30/wp-includes/images/media/default.png",
+          "width": 1881,
+          "height": 518,
+          "sizes": {
+            "thumbnail": "https://18.191.143.30/wp-content/uploads/2021/09/React_Redux_and_Node_Mongo-150x150.png",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "https://18.191.143.30/wp-content/uploads/2021/09/React_Redux_and_Node_Mongo-300x83.png",
+            "medium-width": 300,
+            "medium-height": 83,
+            "medium_large": "https://18.191.143.30/wp-content/uploads/2021/09/React_Redux_and_Node_Mongo-768x211.png",
+            "medium_large-width": 768,
+            "medium_large-height": 211,
+            "large": "https://18.191.143.30/wp-content/uploads/2021/09/React_Redux_and_Node_Mongo-1024x282.png",
+            "large-width": 1024,
+            "large-height": 282,
+            "1536x1536": "https://18.191.143.30/wp-content/uploads/2021/09/React_Redux_and_Node_Mongo-1536x423.png",
+            "1536x1536-width": 1536,
+            "1536x1536-height": 423,
+            "2048x2048": "https://18.191.143.30/wp-content/uploads/2021/09/React_Redux_and_Node_Mongo.png",
+            "2048x2048-width": 1881,
+            "2048x2048-height": 518,
+            "amela_featured_small": "https://18.191.143.30/wp-content/uploads/2021/09/React_Redux_and_Node_Mongo-445x123.png",
+            "amela_featured_small-width": 445,
+            "amela_featured_small-height": 123,
+            "amela_featured_medium": "https://18.191.143.30/wp-content/uploads/2021/09/React_Redux_and_Node_Mongo-914x252.png",
+            "amela_featured_medium-width": 914,
+            "amela_featured_medium-height": 252,
+            "amela_featured_large": "https://18.191.143.30/wp-content/uploads/2021/09/React_Redux_and_Node_Mongo-1280x518.png",
+            "amela_featured_large-width": 1280,
+            "amela_featured_large-height": 518
+          }
+        },
+        "date": "07/09/2020",
+        "tags": "<div class=\"projectLabels\"><span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">React.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Redux + Saga</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Nightwatch.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Node.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Express</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_LowLevelLanguage labelModal pull-left\">MongoDB</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Passport.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_IDE labelModal pull-left\">VS Code</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_IDE labelModal pull-left\">Postman</span></div>\n",
+        "modal_long_description": ""
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/146"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=146"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 4,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/146/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 153,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/146/revisions/153"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=146"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=146"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=146"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 142,
+      "date": "2021-09-09T09:47:23",
+      "date_gmt": "2021-09-09T09:47:23",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=142"
+      },
+      "modified": "2021-09-09T10:49:31",
+      "modified_gmt": "2021-09-09T10:49:31",
+      "slug": "react-js-hooks-and-context-api-node-js-mondodb",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/react-js-hooks-and-context-api-node-js-mondodb/",
+      "title": {
+        "rendered": "React.js (hooks and context api) + Node.js + MondoDb"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        9
+      ],
+      "tags": [],
+      "acf": {
+        "title": "React.js (hooks and context api) + Node.js + MondoDb",
+        "short_description": "",
+        "long_description": "<div>Migration of React.js app to use React hooks + Context API for state management and further app development. This is a web app to generate webapp based on json configuration (similarly to https://jasonette.com/, except it is for web application). Worked both on frontend and backend. It involves the following technologies:</div>\n<ul>\n<li>React hooks + Context API for state management</li>\n<li>Node.js + Express + MongoDB</li>\n<li>Passport.js for Authorization/Authentication</li>\n<li>UX design with Adobe XD</li>\n<li>E2E tests developed with Nightwatch.js</li>\n</ul>\n",
+        "image": {
+          "ID": 148,
+          "id": 148,
+          "title": "React_Hooks_and_Node_Mongo",
+          "filename": "React_Hooks_and_Node_Mongo.png",
+          "filesize": 388934,
+          "url": "https://18.191.143.30/wp-content/uploads/2021/09/React_Hooks_and_Node_Mongo.png",
+          "link": "https://18.191.143.30/react-js-hooks-and-context-api-node-js-mondodb/react_hooks_and_node_mongo/",
+          "alt": "React.js (hooks and context api) + Node.js + MondoDb",
+          "author": "2",
+          "description": "",
+          "caption": "",
+          "name": "react_hooks_and_node_mongo",
+          "status": "inherit",
+          "uploaded_to": 142,
+          "date": "2021-09-09 10:48:38",
+          "modified": "2021-09-09 10:48:59",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "type": "image",
+          "subtype": "png",
+          "icon": "https://18.191.143.30/wp-includes/images/media/default.png",
+          "width": 1799,
+          "height": 674,
+          "sizes": {
+            "thumbnail": "https://18.191.143.30/wp-content/uploads/2021/09/React_Hooks_and_Node_Mongo-150x150.png",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "https://18.191.143.30/wp-content/uploads/2021/09/React_Hooks_and_Node_Mongo-300x112.png",
+            "medium-width": 300,
+            "medium-height": 112,
+            "medium_large": "https://18.191.143.30/wp-content/uploads/2021/09/React_Hooks_and_Node_Mongo-768x288.png",
+            "medium_large-width": 768,
+            "medium_large-height": 288,
+            "large": "https://18.191.143.30/wp-content/uploads/2021/09/React_Hooks_and_Node_Mongo-1024x384.png",
+            "large-width": 1024,
+            "large-height": 384,
+            "1536x1536": "https://18.191.143.30/wp-content/uploads/2021/09/React_Hooks_and_Node_Mongo-1536x575.png",
+            "1536x1536-width": 1536,
+            "1536x1536-height": 575,
+            "2048x2048": "https://18.191.143.30/wp-content/uploads/2021/09/React_Hooks_and_Node_Mongo.png",
+            "2048x2048-width": 1799,
+            "2048x2048-height": 674,
+            "amela_featured_small": "https://18.191.143.30/wp-content/uploads/2021/09/React_Hooks_and_Node_Mongo-445x167.png",
+            "amela_featured_small-width": 445,
+            "amela_featured_small-height": 167,
+            "amela_featured_medium": "https://18.191.143.30/wp-content/uploads/2021/09/React_Hooks_and_Node_Mongo-914x342.png",
+            "amela_featured_medium-width": 914,
+            "amela_featured_medium-height": 342,
+            "amela_featured_large": "https://18.191.143.30/wp-content/uploads/2021/09/React_Hooks_and_Node_Mongo-1280x608.png",
+            "amela_featured_large-width": 1280,
+            "amela_featured_large-height": 608
+          }
+        },
+        "date": "10/09/2020",
+        "tags": "<div class=\"projectLabels\"><span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">React.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">React hooks + Context API</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Nightwatch.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Node.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Express</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_LowLevelLanguage labelModal pull-left\">MongoDB</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Passport.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Adobe XD</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_IDE labelModal pull-left\">VS Code</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_IDE labelModal pull-left\">Postman</span></div>\n",
+        "modal_long_description": "<div class=\"projectLabels\"><span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">React.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">React hooks + Context API</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Nightwatch.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Node.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Express</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_LowLevelLanguage labelModal pull-left\">MongoDB</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Passport.js</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_Web labelModal pull-left\">Adobe XD</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_IDE labelModal pull-left\">VS Code</span><br />\n<span class=\"labelMFO labelMFOProjectDescription label_IDE labelModal pull-left\">Postman</span></div>\n"
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/142"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=142"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 4,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/142/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 149,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/142/revisions/149"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=142"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=142"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=142"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 137,
+      "date": "2021-09-09T09:42:02",
+      "date_gmt": "2021-09-09T09:42:02",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=137"
+      },
+      "modified": "2021-09-09T09:42:02",
+      "modified_gmt": "2021-09-09T09:42:02",
+      "slug": "diploma-in-information-technology",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/diploma-in-information-technology/",
+      "title": {
+        "rendered": "Diploma in Information Technology"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        7
+      ],
+      "tags": [],
+      "acf": {
+        "location": null,
+        "date_range": null,
+        "company": null,
+        "description_1": null,
+        "description_2": null,
+        "description_3": null,
+        "start-year": null,
+        "end_year": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/137"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=137"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/137/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 138,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/137/revisions/138"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=137"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=137"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=137"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 135,
+      "date": "2021-09-09T09:41:24",
+      "date_gmt": "2021-09-09T09:41:24",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=135"
+      },
+      "modified": "2021-09-09T09:41:24",
+      "modified_gmt": "2021-09-09T09:41:24",
+      "slug": "electronic-and-ict-engineering",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/electronic-and-ict-engineering/",
+      "title": {
+        "rendered": "Electronic and ICT Engineering"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        7
+      ],
+      "tags": [],
+      "acf": {
+        "location": null,
+        "date_range": null,
+        "company": null,
+        "description_1": null,
+        "description_2": null,
+        "description_3": null,
+        "start-year": null,
+        "end_year": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/135"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=135"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/135/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 136,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/135/revisions/136"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=135"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=135"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=135"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 133,
+      "date": "2021-09-09T09:39:35",
+      "date_gmt": "2021-09-09T09:39:35",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=133"
+      },
+      "modified": "2021-09-09T09:39:35",
+      "modified_gmt": "2021-09-09T09:39:35",
+      "slug": "web-developer",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/web-developer/",
+      "title": {
+        "rendered": "Web developer"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        4
+      ],
+      "tags": [],
+      "acf": {
+        "location": null,
+        "date_range": null,
+        "company": null,
+        "description_1": null,
+        "description_2": null,
+        "description_3": null,
+        "start-year": null,
+        "end_year": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/133"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=133"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/133/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 134,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/133/revisions/134"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=133"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=133"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=133"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 131,
+      "date": "2021-09-09T09:37:54",
+      "date_gmt": "2021-09-09T09:37:54",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=131"
+      },
+      "modified": "2021-09-09T09:37:54",
+      "modified_gmt": "2021-09-09T09:37:54",
+      "slug": "ict-consultant-aerospace-domain",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/ict-consultant-aerospace-domain/",
+      "title": {
+        "rendered": "ICT Consultant &#8211; Aerospace domain"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        4
+      ],
+      "tags": [],
+      "acf": {
+        "location": null,
+        "date_range": null,
+        "company": null,
+        "description_1": null,
+        "description_2": null,
+        "description_3": null,
+        "start-year": null,
+        "end_year": null
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/131"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=131"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 1,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/131/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 132,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/131/revisions/132"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=131"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=131"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=131"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 125,
+      "date": "2021-09-09T09:31:38",
+      "date_gmt": "2021-09-09T09:31:38",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=125"
+      },
+      "modified": "2021-09-09T09:33:08",
+      "modified_gmt": "2021-09-09T09:33:08",
+      "slug": "ict-consultant-banking-domain",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/ict-consultant-banking-domain/",
+      "title": {
+        "rendered": "ICT Consultant – Banking domain"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        4
+      ],
+      "tags": [],
+      "acf": {
+        "name": "",
+        "level": "",
+        "description": "",
+        "long_description": "",
+        "tags_fe": "",
+        "tags_ide": "",
+        "tags_mobile": "",
+        "tags_devops": "",
+        "tags_tech_old": "",
+        "tags_be": "",
+        "title": "",
+        "short_description": "",
+        "image": false,
+        "location": "",
+        "date": "",
+        "date_range": "2011 - 2012",
+        "company": "Callataÿ & Wouters",
+        "description_1": "Development and implementation of software to manage banking activities. I’ve developed mainly in Cobol and SQL and I’ve provided debugging activities of Java programs.",
+        "description_2": "I’ve worked on client site (Crediti Agricole bank) as customer support engineer providing solutions for core-banking activities.",
+        "description_3": "",
+        "start-year": "2011",
+        "end_year": "2012"
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/125"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=125"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 3,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/125/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 129,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/125/revisions/129"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=125"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=125"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=125"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "date": "2021-09-07T15:53:02",
+      "date_gmt": "2021-09-07T15:53:02",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=81"
+      },
+      "modified": "2021-09-09T09:30:51",
+      "modified_gmt": "2021-09-09T09:30:51",
+      "slug": "software-developer-euris",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/software-developer-euris/",
+      "title": {
+        "rendered": "Software Developer"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 1,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        4
+      ],
+      "tags": [],
+      "acf": {
+        "location": "Brussels, Belgium",
+        "date_range": "2012 - 2015",
+        "company": "STMicroelectronics",
+        "description_1": "I worked as developer in the software tool department. I developed web and desktop applications for internal and external customers, mainly in the domain of cryptography and security.",
+        "description_2": "I mainly developed Windows applications in .Net and Dlls in C/C++. Some other smaller project I realized involved Delphi, and Python languages and Qt framework.",
+        "description_3": "",
+        "start-year": "2012",
+        "end_year": "2015"
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/81"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/1"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=81"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 3,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/81/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 86,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/81/revisions/86"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=81"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=81"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=81"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "date": "2021-09-07T15:51:45",
+      "date_gmt": "2021-09-07T15:51:45",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=78"
+      },
+      "modified": "2021-09-09T09:30:24",
+      "modified_gmt": "2021-09-09T09:30:24",
+      "slug": "full-stack-web-developer",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/full-stack-web-developer/",
+      "title": {
+        "rendered": "Full Stack Web Developer"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 1,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        4
+      ],
+      "tags": [],
+      "acf": {
+        "location": "Bologne, Italy",
+        "date_range": "2015 - 2019",
+        "company": "Euris",
+        "description_1": "I’ve been working as web developer in different projects, mainly in assurance and logistic distribution domain. I've developed web application in form of Single Page Application and we mainly use the following stack: mainly HTML5-CSS-Javascript, AngularJS, Angular 2 and JQuery (client side) and .Net Web API, Asp .NET MVC, Entity Framework and SQL Server (server side).",
+        "description_2": "",
+        "description_3": "",
+        "start-year": "2015",
+        "end_year": "2019",
+        "name": "",
+        "level": "",
+        "description": "",
+        "long_description": "",
+        "tags_fe": "",
+        "tags_ide": "",
+        "tags_mobile": "",
+        "tags_devops": "",
+        "tags_tech_old": "",
+        "tags_be": "",
+        "title": "",
+        "short_description": "",
+        "image": false,
+        "date": ""
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/78"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/1"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=78"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 5,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/78/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 124,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/78/revisions/124"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=78"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=78"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=78"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "date": "2021-09-07T08:12:37",
+      "date_gmt": "2021-09-07T08:12:37",
+      "guid": {
+        "rendered": "https://18.191.143.30/?p=60"
+      },
+      "modified": "2021-09-09T09:30:59",
+      "modified_gmt": "2021-09-09T09:30:59",
+      "slug": "jexp-sys",
+      "status": "publish",
+      "type": "post",
+      "link": "https://18.191.143.30/jexp-sys/",
+      "title": {
+        "rendered": "Full Stack Web Developer"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "",
+        "protected": false
+      },
+      "author": 1,
+      "featured_media": 0,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "categories": [
+        4
+      ],
+      "tags": [],
+      "acf": {
+        "location": "Bologne, Italy",
+        "date_range": "2019 - Present",
+        "company": "Sysdata",
+        "description_1": "I’ve been working as full-stack developer at the client premises. I’ve been involved in several projects mainly working with the following technologies: FRONTEND: Angular 8 and Reactjs (both with React only and with Redux+Saga, now willing to move to React Hooks + Context API), BACKEND: Node.js (Express and MongoDB).",
+        "description_2": "I do daily use (or used in previous projects) various other tool such as automated task-runners, framework to document and test API’s, versioning tool, etc.. I designed and prototyped mobile and web app using Adobe XD.",
+        "description_3": "",
+        "start-year": "2019",
+        "end_year": "Present"
+      },
+      "jetpack_featured_media_url": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/60"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/users/1"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/comments?post=60"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 9,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/60/revisions"
+          }
+        ],
+        "predecessor-version": [
+          {
+            "id": 88,
+            "href": "https://18.191.143.30/wp-json/wp/v2/posts/60/revisions/88"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://18.191.143.30/wp-json/wp/v2/media?parent=60"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/categories?post=60"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://18.191.143.30/wp-json/wp/v2/tags?post=60"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]
+}

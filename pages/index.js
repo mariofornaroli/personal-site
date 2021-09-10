@@ -8,8 +8,23 @@ import Testimonial from './../comps/Testimonial'
 import Blog from './../comps/Blog'
 import Contact from './../comps/Contact'
 import Footer from './../comps/Footer'
+import axios from 'axios'
 
-export default function Home() {
+import { computePostsByCategory, CATEGORIES } from './../utils/utils'
+
+export const getStaticProps = async () => {
+  const res = await axios.get(`${process.env.BA_DATA_URL}/posts?per_page=100`);
+  // const res = await axios.get(`http://localhost:3004/posts?per_page=100`);
+  
+  const posts = computePostsByCategory(res.data)
+
+  return {
+    props: { postsPerCategory: posts }
+  }
+}
+
+export default function Home({ postsPerCategory }) {
+  
   return (
     <>
       <Head>
@@ -17,7 +32,7 @@ export default function Home() {
         <meta name="keywords" content="Mario Fornaroli, full stack developer, frontend developer" />
       </Head>
 
-      <Slider />
+      <Slider posts={postsPerCategory[CATEGORIES.ABOUT_ME]} />
 
       <About />
 

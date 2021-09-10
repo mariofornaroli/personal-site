@@ -1,13 +1,15 @@
 import Header from "./Header"
+import ScrollToTop from "./ScrollToTop";
 
 const Layout = ({ children }) => {
   return (
-    <div className="home-dark">
-
-      {/* End Header Section */}
-      <Header />
-      {children}
-    </div>
+    <>
+      <ScrollToTop />
+      <div className="home-dark">
+        <Header />
+        {children}
+      </div>
+    </>
   );
 }
 
