@@ -2,6 +2,12 @@ import Head from 'next/head'
 import Slider from './../comps/Slider'
 import About from './../comps/About'
 import Services from './../comps/Services'
+import Skills from './../comps/Skills'
+import Portfolio from './../comps/Portfolio'
+import Testimonial from './../comps/Testimonial'
+import Blog from './../comps/Blog'
+import Contact from './../comps/Contact'
+import Footer from './../comps/Footer'
 
 export default function Home() {
   return (
@@ -16,6 +22,18 @@ export default function Home() {
       <About />
 
       <Services />
+
+      <Skills />
+
+      <Portfolio />
+
+      <Testimonial />
+
+      <Blog />
+
+      <Contact />
+
+      <Footer />
 
     </>
   )
