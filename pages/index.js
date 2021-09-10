@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Head>
         <title>Mario Fornaroli Personal Site</title>
-        <meta name="keywords" content="ninjas" />
+        <meta name="keywords" content="Mario Fornaroli, full stack developer, frontend developer" />
       </Head>
 
       <Slider />

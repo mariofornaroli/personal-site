@@ -5,14 +5,15 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaPinterestP,
+  FaGithub,
+  FaYoutube,
 } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaTwitter />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaLinkedinIn />, link: "https://twitter.com/" },
-  { Social: <FaPinterestP />, link: "https://www.pinterest.com/" },
+  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/mariofornaroli" },
+  { Social: <FaGithub />, link: "https://github.com/mariofornaroli" },
+  { Social: <FaYoutube />, link: "https://www.youtube.com/channel/UCTSDQ3BAZfrweD2nBMwJEpQ" },
+  { Social: <FaFacebookF />, link: "https://www.facebook.com/mario.fornaroli" }
 ];
 
 const Social = () => {

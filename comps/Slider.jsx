@@ -1,6 +1,7 @@
 import React from "react";
 import Social from "./Social";
 import Fade from "react-reveal/Fade";
+import TextLoop from "react-text-loop";
 
 const Slider = () => {
   return (
@@ -10,9 +11,8 @@ const Slider = () => {
         id="home"
         className="home-banner overlay overlay-65"
         style={{
-          backgroundImage: `url(${
-            process.env.PUBLIC_URL + "img/banner/bg-3.jpg"
-          })`,
+          backgroundImage: `url(${process.env.PUBLIC_URL + "img/banner/bg-3.jpg"
+            })`,
         }}
       >
         <div className="top-style rotate-both-side dark-shape">
@@ -44,17 +44,21 @@ const Slider = () => {
         <div className="container">
           <div className="row align-items-center full-screen">
             <div className="col-lg-12">
-              <div className="hb-typo text-center">
-                <Fade bottom>
-                  <h6>Hi There, I'm</h6>
-                  <h1 className="font-alt">Miladra Narzo</h1>
-                  <div>
-                    <div className="nav ht-list justify-content-center">
-                      <span>Web Designer</span> <span>Web Developer</span>
-                      <span>UI/UX Designer</span>
-                    </div>
-                  </div>
-                </Fade>
+              <div className="hb-typo ">
+                <h1 className="font-alt">
+                  Hi There, I'm
+                  <br />Raquel Murillo a <br />
+                  <TextLoop>
+                    <span className="loop-text">Frontend</span>
+                    <span className="loop-text"> Fullstack</span>
+                  </TextLoop>{" "}
+                  Developer
+                </h1>
+                <div className="btn-bar mt-4">
+                  <a className="px-btn px-btn-theme btn-md" href="#about">
+                    About me
+                  </a>
+                </div>
               </div>
             </div>
           </div>
