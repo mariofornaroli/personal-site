@@ -4,7 +4,6 @@ import Fade from "react-reveal/Fade";
 import TextLoop from "react-text-loop";
 
 const Slider = ({posts}) => {
-  console.log(posts)
   return (
     <>
       {/*  Home Banner */}

@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 
-const About = () => {
+const About = ({posts}) => {
   return (
     <>
       <section id="about" className="section about-section after-left-section">

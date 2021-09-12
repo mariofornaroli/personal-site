@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 
-const Skills = () => {
+const Skills = ({posts}) => {
     return (
         <>
             <section className="section skill-section">

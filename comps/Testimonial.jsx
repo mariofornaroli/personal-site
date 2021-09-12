@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Fade from "react-reveal/Fade";
 
-export default function SimpleSlider() {
+export default function SimpleSlider({posts}) {
   var settings = {
     dots: true,
     arrow: false,

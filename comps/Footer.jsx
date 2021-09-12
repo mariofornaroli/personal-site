@@ -1,19 +1,17 @@
 import React from "react";
 import {
     FaFacebookF,
-    FaTwitter,
-    FaInstagram,
     FaLinkedinIn,
-    FaPinterestP,
+    FaGithub,
+    FaYoutube,
 } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
 
 const SocialShare = [
-    { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-    { Social: <FaTwitter />, link: "https://www.linkedin.com/" },
-    { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-    { Social: <FaLinkedinIn />, link: "https://twitter.com/" },
-    { Social: <FaPinterestP />, link: "https://www.pinterest.com/" },
+    { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/mariofornaroli" },
+    { Social: <FaGithub />, link: "https://github.com/mariofornaroli" },
+    { Social: <FaYoutube />, link: "https://www.youtube.com/channel/UCTSDQ3BAZfrweD2nBMwJEpQ" },
+    { Social: <FaFacebookF />, link: "https://www.facebook.com/mario.fornaroli" }
 ];
 
 const Footer = () => {
@@ -46,13 +44,12 @@ const Footer = () => {
                                 <p>
                                     © {new Date().getFullYear()} copyright{" "}
                                     <a
-                                        href="https://themeforest.net/user/ib-themes/portfolio"
+                                        href="https://mariofornaroli.com"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        ib-themes
+                                        mariofornaroli.com
                                     </a>
-                                    all right reserved
                                 </p>
                             </Fade>
                         </div>

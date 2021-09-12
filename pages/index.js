@@ -13,18 +13,21 @@ import axios from 'axios'
 import { computePostsByCategory, CATEGORIES } from './../utils/utils'
 
 export const getStaticProps = async () => {
-  const res = await axios.get(`${process.env.BA_DATA_URL}/posts?per_page=100`);
-  // const res = await axios.get(`http://localhost:3004/posts?per_page=100`);
-  
-  const posts = computePostsByCategory(res.data)
+  try {
+    const res = await axios.get(`${process.env.BA_DATA_URL}/posts?per_page=100`);
 
-  return {
-    props: { postsPerCategory: posts }
+    const posts = computePostsByCategory(res.data)
+
+    return {
+      props: { postsPerCategory: posts }
+    }
+  } catch (err) {
+    console.log(err)
   }
 }
 
 export default function Home({ postsPerCategory }) {
-  
+
   return (
     <>
       <Head>
@@ -34,17 +37,17 @@ export default function Home({ postsPerCategory }) {
 
       <Slider posts={postsPerCategory[CATEGORIES.ABOUT_ME]} />
 
-      <About />
+      <About posts={postsPerCategory[CATEGORIES.MY_EXPERTISE]} />
 
-      <Services />
+      <Services posts={postsPerCategory[CATEGORIES.JOB_EXPERIENCE]} />
 
-      <Skills />
+      <Skills posts={postsPerCategory[CATEGORIES.MY_EXPERTISE]} />
 
-      <Portfolio />
+      <Portfolio posts={postsPerCategory[CATEGORIES.PROJECT]} />
 
-      <Testimonial />
+      <Testimonial posts={postsPerCategory[CATEGORIES.EDUCATION]} />
 
-      <Blog />
+      <Blog posts={postsPerCategory[CATEGORIES.TRAINING]} />
 
       <Contact />
 

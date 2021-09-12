@@ -2,7 +2,7 @@
 export const CATEGORIES = {
     ABOUT_ME: 5,
     EDUCATION: 7,
-    JSB_EXPERIENCE: 4,
+    JOB_EXPERIENCE: 4,
     LANGUAGE: 8,
     MY_EXPERTISE: 6,
     PROJECT: 9,

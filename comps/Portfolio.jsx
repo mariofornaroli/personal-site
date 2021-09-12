@@ -5,7 +5,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 
-const Portfolio = () => {
+const Portfolio = ({posts}) => {
   return (
     <section id="work" className="section gray-bg">
       <div className="container">

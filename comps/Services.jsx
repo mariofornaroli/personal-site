@@ -41,7 +41,7 @@ const ServiceContent = [
   },
 ];
 
-export default function Services() {
+export default function Services({posts}) {
   return (
     <>
       <section id="services" className="section services-section gray-bg">
