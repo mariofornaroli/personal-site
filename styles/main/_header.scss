@@ -108,6 +108,9 @@
               color: $px-theme;
             }
           }
+          span {
+            display: inline-block;
+          }
         }
         &.current {
           a {
