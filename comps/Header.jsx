@@ -26,11 +26,13 @@ const Header = () => {
             <header className={navbar ? "main-header fixed-header" : "main-header"}>
                 <nav className="container">
                     <div className=" header-transparent">
-                            <img
+                            {/* <img
                                 className="navbar-brand"
                                 src="img/logo/logo-light.svg"
                                 alt="brand logo"
-                            />
+                            /> */}
+                            {/* <h2 className="logo-name">Mario Fornaroli</h2> */}
+                            <a className="logo-name" href="#home" onClick={handleClick}>Mario Fornaroli</a>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -63,7 +65,7 @@ const Header = () => {
                                 </li>
                                 <li>
                                     <a className="nav-link" href="#about" onClick={handleClick}>
-                                        <span>About Me</span>
+                                        <span>My Expertise</span>
                                     </a>
                                 </li>
                                 <li>

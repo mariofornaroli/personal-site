@@ -1,8 +1,10 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import parse from 'html-react-parser';
+import { SKILL_TAGS_LABELS } from './../utils/utils'
 
 const About = ({ myExpertise, aboutMe }) => {
+
   return (
     <>
       <section id="about" className="section about-section after-left-section">
@@ -11,7 +13,13 @@ const About = ({ myExpertise, aboutMe }) => {
             <div className="col-lg-6 my-3">
               <div className="img-box dark-img-box">
                 <Fade left>
-                  <img src="img/about/about-2.jpg" alt="smiling a girl" />
+                  {
+                    SKILL_TAGS_LABELS.map(tags => {
+                      return (<div className="tags-container">
+                        {parse(myExpertise[tags])}
+                      </div>)
+                    })
+                  }
                 </Fade>
               </div>
             </div>

@@ -43,10 +43,18 @@
   }
 }
 .main-header {
+  display: flex;
+  align-items: center;
   .navbar-brand {
     max-width: 75px;
     margin: 19px 20px;
     transition: 0.3s;
+  }
+  .logo-name {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    cursor: pointer;
   }
 }
 

@@ -10,6 +10,14 @@ export const CATEGORIES = {
     UNCATEGORIZED: 1
 }
 
+export const SKILL_TAGS_LABELS = [
+    'tags_fe',
+    'tags_be',
+    'tags_mobile',
+    'tags_ide',
+    'tags_tech_old',
+]
+
 export const computePostsByCategory = (posts) => {
 
     const retObj = {}

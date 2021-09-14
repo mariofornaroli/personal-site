@@ -48,11 +48,12 @@ const Slider = ({ aboutMe }) => {
               <div className="hb-typo ">
                 <h1 className="font-alt">
                   Hi There, I'm
-                  <br />{aboutMe.my_name} a passionate <br />
+                  <br />a passionate&nbsp;
                   <TextLoop>
                     <span className="loop-text">Frontend</span>
-                    <span className="loop-text"> Fullstack</span>
+                    <span className="loop-text">Fullstack</span>
                   </TextLoop>{" "}
+                  <br />
                   Software Engineer
                 </h1>
                 <h2>with {yearOfExperience}+ years of professional experience</h2>
