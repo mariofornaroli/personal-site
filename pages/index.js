@@ -5,12 +5,12 @@ import Services from './../comps/Services'
 import Skills from './../comps/Skills'
 import Portfolio from './../comps/Portfolio'
 import Testimonial from './../comps/Testimonial'
-import Blog from './../comps/Blog'
+import YTChannel from './../comps/YTChannel'
 import Contact from './../comps/Contact'
 import Footer from './../comps/Footer'
 import axios from 'axios'
 
-import { computePostsByCategory, CATEGORIES } from './../utils/utils'
+import { computePostsByCategory, CATEGORIES, getSinglePostsPerCategory } from './../utils/utils'
 
 export const getStaticProps = async () => {
   try {
@@ -35,9 +35,13 @@ export default function Home({ postsPerCategory }) {
         <meta name="keywords" content="Mario Fornaroli, full stack developer, frontend developer" />
       </Head>
 
-      <Slider posts={postsPerCategory[CATEGORIES.ABOUT_ME]} />
+      <Slider
+        aboutMe={getSinglePostsPerCategory(postsPerCategory, CATEGORIES.ABOUT_ME)}
+      />
 
-      <About posts={postsPerCategory[CATEGORIES.MY_EXPERTISE]} />
+      <About
+        myExpertise={getSinglePostsPerCategory(postsPerCategory, CATEGORIES.MY_EXPERTISE)}
+        aboutMe={getSinglePostsPerCategory(postsPerCategory, CATEGORIES.ABOUT_ME)} />
 
       <Services posts={postsPerCategory[CATEGORIES.JOB_EXPERIENCE]} />
 
@@ -47,7 +51,7 @@ export default function Home({ postsPerCategory }) {
 
       <Testimonial posts={postsPerCategory[CATEGORIES.EDUCATION]} />
 
-      <Blog posts={postsPerCategory[CATEGORIES.TRAINING]} />
+      <YTChannel posts={postsPerCategory[CATEGORIES.TRAINING]} />
 
       <Contact />
 

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
-import { NavLink } from "react-router-dom";
 
 const Header = () => {
     const [click, setClick] = useState(false);
@@ -24,20 +23,14 @@ const Header = () => {
 
     return (
         <>
-            {/* Header */}
             <header className={navbar ? "main-header fixed-header" : "main-header"}>
                 <nav className="container">
                     <div className=" header-transparent">
-                        {/* Brand */}
-                        {/* <NavLink to="/"> */}
                             <img
                                 className="navbar-brand"
                                 src="img/logo/logo-light.svg"
                                 alt="brand logo"
                             />
-                        {/* </NavLink> */}
-                        {/* / */}
-                        {/* Mobile Toggle */}
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -49,8 +42,7 @@ const Header = () => {
                                 <span></span>
                             </div>
                         </button>
-                        {/* / */}
-                        {/* Top Menu */}
+                        
                         <div
                             className={
                                 click
@@ -71,7 +63,7 @@ const Header = () => {
                                 </li>
                                 <li>
                                     <a className="nav-link" href="#about" onClick={handleClick}>
-                                        <span>About Us</span>
+                                        <span>About Me</span>
                                     </a>
                                 </li>
                                 <li>
@@ -90,7 +82,7 @@ const Header = () => {
                                 </li>
                                 <li>
                                     <a className="nav-link" href="#blog" onClick={handleClick}>
-                                        <span>Blog</span>
+                                        <span>My Youtube Channel</span>
                                     </a>
                                 </li>
                                 <li>

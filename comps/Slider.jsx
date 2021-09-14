@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useMemo } from "react";
 import Social from "./Social";
-import Fade from "react-reveal/Fade";
 import TextLoop from "react-text-loop";
+import { getYearsOfExperience } from './../utils/utils'
 
-const Slider = ({posts}) => {
+const Slider = ({ aboutMe }) => {
+  const yearOfExperience = useMemo(() => getYearsOfExperience(), []);
   return (
     <>
       {/*  Home Banner */}
@@ -47,16 +48,17 @@ const Slider = ({posts}) => {
               <div className="hb-typo ">
                 <h1 className="font-alt">
                   Hi There, I'm
-                  <br />Raquel Murillo a <br />
+                  <br />{aboutMe.my_name} a passionate <br />
                   <TextLoop>
                     <span className="loop-text">Frontend</span>
                     <span className="loop-text"> Fullstack</span>
                   </TextLoop>{" "}
-                  Developer
+                  Software Engineer
                 </h1>
+                <h2>with {yearOfExperience}+ years of professional experience</h2>
                 <div className="btn-bar mt-4">
                   <a className="px-btn px-btn-theme btn-md" href="#about">
-                    About me
+                    My Expertise
                   </a>
                 </div>
               </div>

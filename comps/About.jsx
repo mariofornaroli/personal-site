@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 
-const About = ({posts}) => {
+const About = ({myExpertise, aboutMe}) => {
   return (
     <>
       <section id="about" className="section about-section after-left-section">
@@ -18,10 +18,10 @@ const About = ({posts}) => {
             <div className="col-lg-6 my-3">
               <div className="typo-box about-me">
                 <Fade bottom>
-                  <h3>Miladra Narzo</h3>
+                  <h3>{aboutMe.my_name}</h3>
                   <h5>
-                    A Lead <span className="color-theme">App Developer</span> based
-                    in <span className="color-theme">Canada</span>
+                    A <span className="color-theme">Software Engineer</span> graduated
+                    in Italy in 2009 <span className="color-theme">passionate</span> about development
                   </h5>
                   <p>
                     I design and develop services for customers of all sizes,
