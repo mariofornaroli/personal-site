@@ -461,6 +461,18 @@
       height: 100%;
     }
   }
+
+  &.no-animation:hover {
+    .icon, 
+    h5,
+    p {
+      animation: none !important;
+    }
+    
+    &:after {
+      content: none;
+    }
+  }
 }
 
 .services-inner-section .intro-text {
@@ -638,8 +650,10 @@
 
 /* Skill
 ---------------------*/
-.skill-section {
-  .aducation-box {
+.skill-section,
+.job-experience-section {
+  .aducation-box,
+  .job-experience-box {
     margin: 0;
     list-style: none;
     padding: 25px;

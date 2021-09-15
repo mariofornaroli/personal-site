@@ -23,15 +23,19 @@ export const computePostsByCategory = (posts) => {
     const retObj = {}
 
     posts && posts.forEach(post => {
-        const { categories, acf: customFields } = post;
+        const { categories, acf: customFields, id } = post;
 
         for (let category in CATEGORIES) {
             let category_id = CATEGORIES[category];
             if (categories.includes(category_id)) {
+                let objToInsert = {
+                    id,
+                    ...customFields
+                }
                 if (retObj[category_id]) {
-                    retObj[category_id].push(customFields)
+                    retObj[category_id].push(objToInsert)
                 } else {
-                    retObj[category_id] = [customFields]
+                    retObj[category_id] = [objToInsert]
                 }
             }
         }

@@ -14,9 +14,9 @@ const About = ({ myExpertise, aboutMe }) => {
               <div className="img-box dark-img-box">
                 <Fade left>
                   {
-                    SKILL_TAGS_LABELS.map(tags => {
-                      return (<div className="tags-container">
-                        {parse(myExpertise[tags])}
+                    SKILL_TAGS_LABELS.map(tagsKey => {
+                      return (<div className="tags-container" key={tagsKey}>
+                        {parse(myExpertise[tagsKey])}
                       </div>)
                     })
                   }

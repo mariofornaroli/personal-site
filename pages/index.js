@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Slider from './../comps/Slider'
 import About from './../comps/About'
 import Services from './../comps/Services'
+import Experiences from './../comps/Experiences'
 import Skills from './../comps/Skills'
 import Portfolio from './../comps/Portfolio'
 import Testimonial from './../comps/Testimonial'
@@ -44,6 +45,8 @@ export default function Home({ postsPerCategory }) {
         aboutMe={getSinglePostsPerCategory(postsPerCategory, CATEGORIES.ABOUT_ME)} />
 
       <Services posts={postsPerCategory[CATEGORIES.JOB_EXPERIENCE]} />
+
+      <Experiences posts={postsPerCategory[CATEGORIES.JOB_EXPERIENCE]} />
 
       <Skills posts={postsPerCategory[CATEGORIES.MY_EXPERTISE]} />
 

@@ -74,7 +74,7 @@ const Header = () => {
                                         href="#services"
                                         onClick={handleClick}
                                     >
-                                        <span>My Expertise</span>
+                                        <span>Experience</span>
                                     </a>
                                 </li>
                                 <li>

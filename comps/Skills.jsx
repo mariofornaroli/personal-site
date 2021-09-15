@@ -45,6 +45,7 @@ const Skills = ({posts}) => {
                                 <h4 className="font-alt">Experience</h4>
                             </div>
                             <ul className="aducation-box dark-bg">
+
                                 <Fade bottom>
                                     <li>
                                         <span className="theme-bg">2010-2012</span>
