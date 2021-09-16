@@ -12,9 +12,9 @@ const ServiceContent = [
 ];
 
 export default function Experiences({ posts }) {
-  
+
   let orderedPosts = [...posts]
-  orderedPosts = orderedPosts.sort((p1, p2) => (+p1['start-year']) - (+p2['start-year']))
+  orderedPosts = orderedPosts.sort((p1, p2) => (+p2['start-year']) - (+p1['start-year']))
 
   return (
     <>
@@ -29,47 +29,23 @@ export default function Experiences({ posts }) {
           </div>
           <div className="row">
             <ul className="feature-box-01 no-animation job-experience-box dark-bg">
-              <Fade bottom>
-                <li>
-                  <span className="theme-bg">2010-2012</span>
-                  <h6>Software Engineer</h6>
-                  <p>Furious Design Institute</p>
-                </li>
-              </Fade>
-              <Fade bottom>
-                <li>
-                  <span className="theme-bg">2010-2012</span>
-                  <h6>Android Developer</h6>
-                  <p>Ketlimte Design Ltd.</p>
-                </li>
-              </Fade>
-              <Fade bottom>
-                <li>
-                  <span className="theme-bg">2010-2012</span>
-                  <h6>Rubby Developer</h6>
-                  <p>Randara Institute Academy</p>
-                </li>
-              </Fade>
+              {orderedPosts.map(op => (
+                <>
+                  <Fade bottom key={op.id}>
+                    <li>
+                      <span className="theme-bg">{op.date_range}</span>
+                      <h6>{op.job_title}</h6>
+                      <p>{op.company}</p>
+                      <p>{op.location}</p>
+                      <p>{op.description_1}</p>
+                      <p>{op.description_2}</p>
+                      <p>{op.description_3}</p>
+                    </li>
+                  </Fade>
+                </>
+              ))
+              }
             </ul>
-            {/* {ServiceContent.map((val, i) => (
-              <div className="col-md-6 col-lg-4 my-3" key={i}>
-                <Zoom>
-                  <div className="feature-box-01">
-                    <Fade bottom>
-                      <div>
-                        <div className="icon">
-                          <i className={val.icon}></i>
-                        </div>
-                        <div className="feature-content">
-                          <h5>{val.title}</h5>
-                          <p>{val.descriptions}</p>
-                        </div>
-                      </div>
-                    </Fade>
-                  </div>
-                </Zoom>
-              </div>
-            ))} */}
           </div>
 
         </div>
