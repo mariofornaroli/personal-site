@@ -70,3 +70,8 @@ export const getYearsOfExperience = () => {
     const dt = new Date()
     return dt.getFullYear() - 2011;
 }
+
+export const getOrderedPostsBy = (posts, orderKey) => {
+    return posts.sort((p1, p2) => (+p2[orderKey]) - (+p1[orderKey]))
+
+}

@@ -54,7 +54,7 @@ const Header = () => {
                         >
                             <Scrollspy
                                 className="anchor_nav navbar-nav ml-auto"
-                                items={["home", "about", "services", "work", "blog", "contact"]}
+                                items={["home", "about", "experience", "education", "blog", "contact"]}
                                 currentClassName="current"
                                 offset={-71}
                             >
@@ -71,15 +71,15 @@ const Header = () => {
                                 <li>
                                     <a
                                         className="nav-link"
-                                        href="#services"
+                                        href="#experience"
                                         onClick={handleClick}
                                     >
                                         <span>Experience</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="nav-link" href="#work" onClick={handleClick}>
-                                        <span>Portfolio</span>
+                                    <a className="nav-link" href="#education" onClick={handleClick}>
+                                        <span>Education</span>
                                     </a>
                                 </li>
                                 <li>

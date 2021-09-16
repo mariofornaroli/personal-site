@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
-import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
+import { getOrderedPostsBy } from './../utils/utils';
 
 const ServiceContent = [
   {
@@ -14,11 +14,11 @@ const ServiceContent = [
 export default function Experiences({ posts }) {
 
   let orderedPosts = [...posts]
-  orderedPosts = orderedPosts.sort((p1, p2) => (+p2['start-year']) - (+p1['start-year']))
+  orderedPosts = getOrderedPostsBy(orderedPosts, 'start-year')
 
   return (
     <>
-      <section id="services" className="section job-experience-section gray-bg">
+      <section id="experience" className="section job-experience-section gray-bg">
         <div className="container">
           <div className="row justify-content-center section-title text-center">
             <div className="col-lg-7">
