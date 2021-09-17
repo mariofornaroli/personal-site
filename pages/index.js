@@ -59,7 +59,8 @@ export default function Home({ postsPerCategory, videos }) {
 
       <Experiences posts={postsPerCategory[CATEGORIES.JOB_EXPERIENCE]} />
 
-      <Education posts={postsPerCategory[CATEGORIES.EDUCATION]} />
+      <Education posts={postsPerCategory[CATEGORIES.EDUCATION]}
+        languages={postsPerCategory[CATEGORIES.LANGUAGE]} />
 
       <Portfolio posts={postsPerCategory[CATEGORIES.PROJECT]} />
 
