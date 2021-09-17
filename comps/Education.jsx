@@ -22,16 +22,14 @@ const Education = ({ posts }) => {
                     <div className="row">
                         <ul className="aducation-box dark-bg">
                             {orderedPosts.map(op => (
-                                <>
-                                    <Fade bottom key={op.id}>
-                                        <li>
-                                            <span className="theme-bg">{op.date_range}</span>
-                                            <h6>{op.job_title}</h6>
-                                            <p>{op.company}</p>
-                                            <p>{op.description_1}</p>
-                                        </li>
-                                    </Fade>
-                                </>
+                                <Fade bottom key={op.id}>
+                                    <li>
+                                        <span className="theme-bg">{op.date_range}</span>
+                                        <h6>{op.job_title}</h6>
+                                        <p>{op.company}</p>
+                                        <p>{op.description_1}</p>
+                                    </li>
+                                </Fade>
                             ))
                             }
                         </ul>

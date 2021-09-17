@@ -6,7 +6,7 @@ if (process.browser && document.getElementById('root')) {
   Modal.setAppElement("#root");
 }
 
-const YTChannel = ({posts}) => {
+const RecentArticles = ({posts}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
@@ -133,4 +133,4 @@ const YTChannel = ({posts}) => {
   );
 };
 
-export default YTChannel;
+export default RecentArticles;

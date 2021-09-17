@@ -5,30 +5,41 @@ import Skills from './../comps/Skills'
 import Services from './../comps/Services'
 import Experiences from './../comps/Experiences'
 import Education from './../comps/Education'
+import YoutubeChannel from './../comps/YoutubeChannel'
 import Portfolio from './../comps/Portfolio'
 import Testimonial from './../comps/Testimonial'
-import YTChannel from './../comps/YTChannel'
+import RecentArticles from '../comps/RecentArticles'
 import Contact from './../comps/Contact'
 import Footer from './../comps/Footer'
 import axios from 'axios'
+import mockedYtApiResult from "./../mock-http/mock_yt_videos"
 
 import { computePostsByCategory, CATEGORIES, getSinglePostsPerCategory } from './../utils/utils'
 
 export const getStaticProps = async () => {
   try {
-    const res = await axios.get(`${process.env.BA_DATA_URL}/posts?per_page=100`);
+    // Site data from CMS
+    const resCms = await axios.get(`${process.env.BA_DATA_URL}/posts?per_page=100`);
+    const posts = computePostsByCategory(resCms.data)
 
-    const posts = computePostsByCategory(res.data)
+    // Videos from Youtube api
+    const resYoutube = (!!process.env.MOCK_YT_API) ?
+      await Promise.resolve(mockedYtApiResult) :
+      await axios.get(`https://content-youtube.googleapis.com/youtube/v3/search?channelId=${process.env.YT_CHANNEL_ID}&part=snippet&maxResults=20&key=${process.env.YT_API_KEY}`);
 
+    const videos = resYoutube && resYoutube.data && resYoutube.data.items;
     return {
-      props: { postsPerCategory: posts }
+      props: {
+        postsPerCategory: posts,
+        videos
+      }
     }
   } catch (err) {
     console.log(err)
   }
 }
 
-export default function Home({ postsPerCategory }) {
+export default function Home({ postsPerCategory, videos }) {
 
   return (
     <>
@@ -53,10 +64,13 @@ export default function Home({ postsPerCategory }) {
       <Portfolio posts={postsPerCategory[CATEGORIES.PROJECT]} />
 
       <Testimonial posts={postsPerCategory[CATEGORIES.EDUCATION]} />
+
+      <YoutubeChannel videos={videos} />
       <Services posts={postsPerCategory[CATEGORIES.JOB_EXPERIENCE]} />
+
       <Skills posts={postsPerCategory[CATEGORIES.MY_EXPERTISE]} />
 
-      <YTChannel posts={postsPerCategory[CATEGORIES.TRAINING]} />
+      <RecentArticles posts={postsPerCategory[CATEGORIES.TRAINING]} />
 
       <Contact />
 

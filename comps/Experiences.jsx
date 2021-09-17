@@ -30,19 +30,17 @@ export default function Experiences({ posts }) {
           <div className="row">
             <ul className="feature-box-01 no-animation job-experience-box dark-bg">
               {orderedPosts.map(op => (
-                <>
-                  <Fade bottom key={op.id}>
-                    <li>
-                      <span className="theme-bg">{op.date_range}</span>
-                      <h6>{op.job_title}</h6>
-                      <p>{op.company}</p>
-                      <p>{op.location}</p>
-                      <p>{op.description_1}</p>
-                      <p>{op.description_2}</p>
-                      <p>{op.description_3}</p>
-                    </li>
-                  </Fade>
-                </>
+                <Fade bottom key={op.id}>
+                  <li>
+                    <span className="theme-bg">{op.date_range}</span>
+                    <h6>{op.job_title}</h6>
+                    <p>{op.company}</p>
+                    <p>{op.location}</p>
+                    <p>{op.description_1}</p>
+                    <p>{op.description_2}</p>
+                    <p>{op.description_3}</p>
+                  </li>
+                </Fade>
               ))
               }
             </ul>

@@ -83,7 +83,7 @@ const Header = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="nav-link" href="#blog" onClick={handleClick}>
+                                    <a className="nav-link" href="#myYtChannel" onClick={handleClick}>
                                         <span>My Youtube Channel</span>
                                     </a>
                                 </li>
