@@ -48,7 +48,7 @@ const Slider = ({ aboutMe }) => {
               <div className="hb-typo ">
                 <h1 className="font-alt">
                   Hi There, I'm
-                  <br />a passionate&nbsp;
+                  <br />&nbsp;a passionate&nbsp;
                   <TextLoop>
                     <span className="loop-text">Frontend</span>
                     <span className="loop-text">Fullstack</span>

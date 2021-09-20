@@ -3,6 +3,7 @@ import Slider from './../comps/Slider'
 import About from './../comps/About'
 import Skills from './../comps/Skills'
 import Services from './../comps/Services'
+import SomeProjects from './../comps/SomeProjects'
 import Experiences from './../comps/Experiences'
 import Education from './../comps/Education'
 import YoutubeChannel from './../comps/YoutubeChannel'
@@ -72,6 +73,8 @@ export default function Home({ postsPerCategory, videos }) {
       <Skills posts={postsPerCategory[CATEGORIES.MY_EXPERTISE]} />
 
       <RecentArticles posts={postsPerCategory[CATEGORIES.TRAINING]} />
+
+      <SomeProjects posts={postsPerCategory[CATEGORIES.PROJECT]} />
 
       <Contact />
 

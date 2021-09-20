@@ -7,7 +7,6 @@ const Education = ({ posts, languages }) => {
     let orderedPosts = [...posts]
     orderedPosts = getOrderedPostsBy(orderedPosts, 'start-year')
 
-    console.log(languages)
     return (
         <>
             <section id="education" className="section skill-section">
