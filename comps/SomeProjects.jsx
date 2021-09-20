@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
+import ProjectModal from './ProjectModal';
 
 export default function SomeProjects({ posts: projects }) {
+  const [modalOpen, setModalOpen] = useState(false)
+  const [currentProject, setCurrentProject] = useState(null)
+  const toggleModalOpen = () => setModalOpen(!modalOpen);
   return (
     <>
+      <ProjectModal isOpen={modalOpen} toggleModalOpen={toggleModalOpen} currentProject={currentProject} />
       <section id="someProjects" className="section services-section gray-bg">
         <div className="container">
           <div className="row justify-content-center section-title text-center">
@@ -19,7 +24,8 @@ export default function SomeProjects({ posts: projects }) {
           </div>
           <div className="row">
             {projects.map((project) => (
-              <div className="col-md-6 col-lg-4 my-3" key={project.id}>
+              <div className="col-md-6 col-lg-4 my-3" key={project.id}
+                onClick={() => setCurrentProject(project)}>
                 <Zoom>
                   <div className="feature-box-01">
                     <Fade bottom>
@@ -31,6 +37,7 @@ export default function SomeProjects({ posts: projects }) {
                           <h5>{project.title}</h5>
                           <p>{project.short_description}</p>
                         </div>
+                        <button onClick={toggleModalOpen}>ARCHITECTURE DIAGRAM</button>
                       </div>
                     </Fade>
                   </div>
