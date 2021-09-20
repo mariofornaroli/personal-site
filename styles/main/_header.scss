@@ -117,6 +117,12 @@
             color: $px-theme;
           }
         }
+        &.header-item.fake,
+        &.header-item.fake.current {
+          a {
+            display: none;
+          }
+        }
       }
     }
   }
