@@ -23,7 +23,7 @@ const Contact = () => {
               <div className="contct-form">
                 <div className="sm-title">
                   <Fade left>
-                    <h4 className="font-alt">Contact us</h4>
+                    <h4 className="font-alt">Contact me</h4>
                   </Fade>
                 </div>
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -141,40 +141,36 @@ const Contact = () => {
                 </Fade>
 
                 <Fade bottom>
-                  <div className="media">
+                  <div className="media hc">
                     <div className="icon">
                       <i className="ti-map"></i>
                     </div>
                     <span className="media-body">
-                      123 Stree New York City , <br />
-                      United States Of America <br />
-                      NY 750065.
+                      {/* Via Toso Montanari 22 , <br /> */}
+                      Bologne, Italy <br />
+                      40138, Italy.
                     </span>
                   </div>
                   {/* End media */}
                 </Fade>
                 <Fade bottom>
-                  <div className="media">
+                  <div className="media hc">
                     <div className="icon">
                       <i className="ti-email"></i>
                     </div>
                     <span className="media-body">
-                      support@domain.com
-                      <br />
-                      info@domain.com
+                      mario.fornaroli@yahoo.it
                     </span>
                   </div>
                   {/* End media */}
                 </Fade>
                 <Fade bottom>
-                  <div className="media">
+                  <div className="media hc">
                     <div className="icon">
                       <i className="ti-mobile"></i>
                     </div>
                     <span className="media-body">
-                      +044 966 9696 636
-                      <br />
-                      +044 966 9696 636
+                      +039 334 7385621
                     </span>
                   </div>
                   {/* End media */}
