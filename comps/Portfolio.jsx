@@ -15,8 +15,8 @@ const Portfolio = ({posts}) => {
               <h3 className="font-alt">My Portfolio</h3>
               <p>
                 I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web
-                services and online stores.
+                specializing in creating stylish, modern web applications and web
+                services.
               </p>
             </Fade>
           </div>

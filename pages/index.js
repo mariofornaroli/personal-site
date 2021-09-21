@@ -1,15 +1,10 @@
 import Head from 'next/head'
 import Slider from './../comps/Slider'
 import About from './../comps/About'
-import Skills from './../comps/Skills'
-import Services from './../comps/Services'
 import SomeProjects from './../comps/SomeProjects'
 import Experiences from './../comps/Experiences'
 import Education from './../comps/Education'
 import YoutubeChannel from './../comps/YoutubeChannel'
-import Portfolio from './../comps/Portfolio'
-import Testimonial from './../comps/Testimonial'
-import RecentArticles from '../comps/RecentArticles'
 import Contact from './../comps/Contact'
 import Footer from './../comps/Footer'
 import axios from 'axios'
@@ -57,22 +52,12 @@ export default function Home({ postsPerCategory, videos }) {
         myExpertise={getSinglePostsPerCategory(postsPerCategory, CATEGORIES.MY_EXPERTISE)}
         aboutMe={getSinglePostsPerCategory(postsPerCategory, CATEGORIES.ABOUT_ME)} />
 
-
       <Experiences posts={postsPerCategory[CATEGORIES.JOB_EXPERIENCE]} />
 
       <Education posts={postsPerCategory[CATEGORIES.EDUCATION]}
         languages={postsPerCategory[CATEGORIES.LANGUAGE]} />
 
-      <Portfolio posts={postsPerCategory[CATEGORIES.PROJECT]} />
-
-      <Testimonial posts={postsPerCategory[CATEGORIES.EDUCATION]} />
-
       <YoutubeChannel videos={videos} />
-      <Services posts={postsPerCategory[CATEGORIES.JOB_EXPERIENCE]} />
-
-      <Skills posts={postsPerCategory[CATEGORIES.MY_EXPERTISE]} />
-
-      <RecentArticles posts={postsPerCategory[CATEGORIES.TRAINING]} />
 
       <SomeProjects posts={postsPerCategory[CATEGORIES.PROJECT]} />
 
