@@ -21,9 +21,9 @@ export const getStaticProps = async () => {
     // Videos from Youtube api
     const resYoutube = (!!process.env.MOCK_YT_API) ?
       await Promise.resolve(mockedYtApiResult) :
-      await axios.get(`https://content-youtube.googleapis.com/youtube/v3/search?channelId=${process.env.YT_CHANNEL_ID}&part=snippet&maxResults=20&key=${process.env.YT_API_KEY}`);
+      await axios.get(`https://content-youtube.googleapis.com/youtube/v3/search?channelId=${process.env.YT_CHANNEL_ID}&part=snippet&maxResults=9&key=${process.env.YT_API_KEY}&type=video`);
 
-    const videos = resYoutube && resYoutube.data && resYoutube.data.items;
+    const videos = resYoutube && resYoutube.data && resYoutube.data.items && resYoutube.data.items.filter(video => video.id && video.id.kind === "youtube#video");
     return {
       props: {
         postsPerCategory: posts,
