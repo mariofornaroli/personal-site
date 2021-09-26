@@ -408,6 +408,7 @@
   padding: 15% 12%;
   position: relative;
   z-index: 1;
+  cursor: pointer;
   &:after {
     content: "";
     position: absolute;
@@ -418,7 +419,7 @@
     height: 0;
     width: 100%;
     transition: 0.5s ease-in-out;
-    background: $px-theme;
+    background: rgb(10, 10, 10);
     opacity: 0.8;
     z-index: -1;
   }
@@ -443,18 +444,18 @@
   &:hover {
     color: rgba($px-white, 0.7);
 
-    .icon {
-      color: $px-white;
-      animation: 700ms ease-in-out 0s normal none 1 running slideTop !important;
-    }
-    h5 {
-      color: $px-white;
-      animation: 700ms ease-in-out 0s normal none 1 running slideTop !important;
-    }
-    p {
-      animation: 700ms ease-in-out 0s normal none 1 running slideTop !important;
-      color: $px-white;
-    }
+    // .icon {
+    //   color: $px-white;
+    //   animation: 700ms ease-in-out 0s normal none 1 running slideTop !important;
+    // }
+    // h5 {
+    //   color: $px-white;
+    //   animation: 700ms ease-in-out 0s normal none 1 running slideTop !important;
+    // }
+    // p {
+    //   animation: 700ms ease-in-out 0s normal none 1 running slideTop !important;
+    //   color: $px-white;
+    // }
     &:after {
       bottom: auto;
       top: 0;
