@@ -1,6 +1,6 @@
 .home-dark {
-  background: #131416;
-  color: #878e99;
+  background: $px-black;
+  color: $px-text-light;
   position: relative;
   z-index: 1;
   .about-me .media label {
@@ -23,20 +23,20 @@
   }
   .feature-box-01,
   .blog-post .blog-info {
-    background: #131416;
+    background: $px-black;
   }
   .main-header.fixed-header {
-    background: #1c1d24;
+    background: $px-dark;
   }
   .fixed-header.main-header {
     border-color: #2a2a2a;
     .navbar-nav > li.current a {
-      color: #dc965a;
+      color: $px-theme;
     }
   }
   @media screen and (max-width: 991px) {
     .fixed-header .header-transparent {
-      background: #1c1d24;
+      background: $px-dark;
     }
   }
 
@@ -72,7 +72,7 @@
   .contct-form .form-group .form-label,
   .contct-form .form-group .form-control,
   .portfolio-box-01 h5 {
-    color: #fff;
+    color: $px-white;
   }
   .blog-post .blog-info h6 {
     &:hover {
@@ -80,16 +80,16 @@
     }
   }
   .contact-info .media .media-body {
-    color: #878e99;
+    color: $px-text-light;
   }
   .gray-bg,
   .contct-form {
-    background: #1c1d24;
+    background: $px-dark;
   }
   .contct-form .form-group .form-control,
   .contct-form .form-group .form-label,
   .portfolio-box-01 {
-    background: #131416;
+    background: $px-black;
   }
   .contct-form .form-group .form-control {
     border-color: #1a1a1a;
@@ -107,21 +107,42 @@
     background: #232323;
   }
 
+  .tags-container .skill_level{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .labelMFO {
+    display: inline-block;
+    padding: 2px 12px;
+    background-color: $px-theme;
+    color: $px-white-opaqued  ;
+    margin-right: 0.6em;
+    margin-bottom: 0.8em;
+    border-radius: 2em;
+
+    .label_Web {
+
+    }
+  }
+  
+
   @media (max-width: 991px) {
     .main-header .navbar-nav > li {
       border-top-color: #333;
       border-right: none;
     }
     .main-header .navbar-nav > li > a {
-      color: #fff;
+      color: $px-white;
     }
     .main-header .navbar-nav {
-      background: #1c1d24;
+      background: $px-dark;
       position: relative;
       &::before {
         content: "";
         position: absolute;
-        background: #1c1d24;
+        background: $px-dark;
         width: 100%;
         height: 60px;
         top: -60px;
