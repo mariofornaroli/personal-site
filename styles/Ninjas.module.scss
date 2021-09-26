@@ -1,9 +1,9 @@
 .single {
   padding: 2px 16px;
-  background: #fff;
+  background: $px-white;
   display: block;
   margin: 20px 10px;
-  border-left: 8px solid #fff;
+  border-left: 8px solid $px-white;
 }
 .single:hover {
   border-left: 8px solid #4979ff;

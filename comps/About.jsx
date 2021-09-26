@@ -9,7 +9,7 @@ const About = ({ myExpertise, aboutMe }) => {
     <>
       <section id="about" className="section about-section after-left-section">
         <div className="container">
-          <div className="row align-items-center justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-6 my-3">
               <div className="img-box dark-img-box">
                 <Fade left>

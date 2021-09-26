@@ -259,7 +259,7 @@
       width: 42px;
       height: 42px;
       text-align: center;
-      background: #fff;
+      background: $px-white;
       border-radius: 50%;
       line-height: 35px;
       color: $px-dark;
@@ -337,8 +337,8 @@
     position: relative;
     overflow: hidden;
     box-shadow: $px-shadow;
-    background: #fff5ec;
-    padding: 10px;
+    background: $px-gray;
+    padding: 1.3em;
     img {
       position: relative;
     }
@@ -453,7 +453,7 @@
     }
     p {
       animation: 700ms ease-in-out 0s normal none 1 running slideTop !important;
-      color: #fff;
+      color: $px-white;
     }
     &:after {
       bottom: auto;
@@ -481,7 +481,7 @@
   }
   h6 {
     font-weight: 700;
-    color: #dc965a;
+    color: $px-theme;
     font-size: 18px;
     margin-bottom: 15px;
   }
@@ -510,7 +510,7 @@
 /* Features
 ------------------------*/
 .feature-box-02 {
-  background: #fff;
+  background: $px-white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   padding: 40px 30px;
   position: relative;
@@ -524,8 +524,8 @@
   left: 0;
   right: auto;
   bottom: 0;
-  border-top: 5px solid #dc965a;
-  border-bottom: 5px solid #dc965a;
+  border-top: 5px solid $px-theme;
+  border-bottom: 5px solid $px-theme;
   width: 0px;
   position: absolute;
   transition: ease all 0.35s;
@@ -538,8 +538,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  border-left: 5px solid #dc965a;
-  border-right: 5px solid #dc965a;
+  border-left: 5px solid $px-theme;
+  border-right: 5px solid $px-theme;
   height: 0px;
   position: absolute;
   transition: ease all 0.35s;
@@ -549,7 +549,7 @@
 .feature-box-02 h6 {
   font-weight: 700;
   position: relative;
-  color: #dc965a;
+  color: $px-theme;
   padding: 5px 0;
   font-size: 14px;
   margin-bottom: 10px;
@@ -562,7 +562,7 @@
   top: 0;
   width: 5px;
   height: 100%;
-  background: #dc965a;
+  background: $px-theme;
 }
 .feature-box-02 h5 {
   font-weight: 700;
@@ -576,7 +576,7 @@
   top: -5px;
 }
 .feature-box-02:hover h6:after {
-  background: #fff;
+  background: $px-white;
 }
 .feature-box-02:hover:after {
   width: 100%;
@@ -594,7 +594,7 @@
   filter: opacity(0.9);
 }
 .feature-box-03 {
-  background: #fff;
+  background: $px-white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   padding: 40px 30px;
   position: relative;
@@ -609,12 +609,12 @@
   right: 0;
   width: 0px;
   height: 3px;
-  background: #dc965a;
+  background: $px-theme;
   transition: ease all 0.35s;
 }
 .feature-box-03 .icon {
-  background: #dc965a;
-  color: #fff;
+  background: $px-theme;
+  color: $px-white;
   width: 80px;
   height: 80px;
   display: inline-flex;
@@ -878,7 +878,7 @@
 /* Contact Us
 ---------------------*/
 .g-map {
-  background: #fff;
+  background: $px-white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   padding: 15px;
   margin-top: 50px;
@@ -1022,7 +1022,7 @@
 .home-banner {
   h1 {
     span {
-      color: #dc965a;
+      color: $px-theme;
     }
   }
 }

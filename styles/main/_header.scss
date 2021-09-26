@@ -51,10 +51,11 @@
     transition: 0.3s;
   }
   .logo-name {
-    color: #fff;
+    color: $px-white;
     margin-bottom: 0;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     cursor: pointer;
+    min-width: 190px;
   }
 }
 
@@ -90,8 +91,9 @@
           }
         }
         > a {
-          padding: 0 10px;
-          line-height: 70px;
+          padding: 24px 10px;
+          display: inline-block;
+          // line-height: 70px;
           color: rgba($px-white, 0.9);
           font-weight: 700;
           text-transform: uppercase;
@@ -125,6 +127,13 @@
         }
       }
     }
+  }
+}
+
+
+.header-item {
+  .nav-link span {
+    white-space:nowrap;
   }
 }
 
@@ -211,19 +220,19 @@
       padding: 0;
     }
     .fixed-header & {
-      background: #1c1d24;
+      background: $px-dark;
     }
     .navbar {
       padding: 0;
     }
 
     .navbar-nav {
-      background: #1c1d24;
+      background: $px-dark;
       position: relative;
       &::before {
         content: "";
         position: absolute;
-        background: #1c1d24;
+        background: $px-dark;
         width: 100%;
         height: 60px;
         top: -60px;
@@ -236,7 +245,7 @@
           text-transform: uppercase;
           font-size: 14px;
           letter-spacing: 0.05rem;
-          color: #fff;
+          color: $px-white;
           display: block;
           &.current {
             color: $px-theme;
@@ -245,7 +254,7 @@
       }
     }
     &.fixed-header {
-      border-bottom-color: #1c1d24;
+      border-bottom-color: $px-dark;
     }
   }
 }
@@ -262,7 +271,7 @@
       }
       @include down-md {
         > a {
-          color: #fff;
+          color: $px-white;
           &:hover {
             color: $px-theme;
           }
@@ -278,7 +287,7 @@
   }
   @include down-md {
     .header-transparent {
-      background: #1c1d24;
+      background: $px-dark;
     }
   }
 }

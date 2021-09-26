@@ -111,19 +111,32 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 1em;
   }
 
   .labelMFO {
     display: inline-block;
-    padding: 2px 12px;
+    padding: 2px 16px;
     background-color: $px-theme;
     color: $px-white-opaqued  ;
-    margin-right: 0.6em;
-    margin-bottom: 0.8em;
+    margin-right: 0.8em;
+    margin-bottom: 1em;
     border-radius: 2em;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 
-    .label_Web {
-
+    &.label_FE {
+      background-color: $px-FE-tag;
+    }
+    &.label_BE {
+      background-color: $px-BE-tag;
+    }
+    &.label_IDE {
+      background-color: $px-IDE-tag;
+    }
+    &.label_Mobile {
+      background-color: $px-mobile-tag;
     }
   }
   

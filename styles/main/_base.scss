@@ -58,7 +58,7 @@ mark {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: $px-white;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -86,7 +86,7 @@ mark {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  background-color: #fff;
+  background-color: $px-white;
   color: $px-theme;
   width: 42px;
   height: 45px;
@@ -101,7 +101,7 @@ mark {
   cursor: pointer;
   &:hover {
     background: $px-theme;
-    color: #fff;
+    color: $px-white;
     transform: translateY(-5px);
   }
   span {

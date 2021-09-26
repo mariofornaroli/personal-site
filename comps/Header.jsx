@@ -63,12 +63,12 @@ const Header = () => {
                                         <span>Home</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li className="header-item">
                                     <a className="nav-link" href="#about" onClick={handleClick}>
                                         <span>My Expertise</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li className="header-item">
                                     <a
                                         className="nav-link"
                                         href="#experience"
@@ -77,17 +77,17 @@ const Header = () => {
                                         <span>Experience</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li className="header-item">
                                     <a className="nav-link" href="#education" onClick={handleClick}>
                                         <span>Education</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li className="header-item">
                                     <a className="nav-link" href="#myYtChannel" onClick={handleClick}>
                                         <span>My Youtube Channel</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li className="header-item">
                                     <a className="nav-link" href="#someProjects" onClick={handleClick}>
                                         <span>Projects</span>
                                     </a>

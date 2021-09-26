@@ -1,7 +1,7 @@
 // preview css
 .home-dark.feature-section {
   .feature-box-01 {
-    background: #1c1d24;
+    background: $px-dark;
   }
 }
 .preview-section {
@@ -114,7 +114,7 @@
     &:hover {
       background: #222;
       .icon img {
-        background: #fff;
+        background: $px-white;
       }
     }
   }
@@ -123,7 +123,7 @@
   .title {
     font-size: 40px;
     font-weight: 800;
-    color: #fff;
+    color: $px-white;
     margin-top: 0;
     margin-bottom: 40px;
     @media screen and (max-width: 1499px) {
@@ -134,13 +134,13 @@
     }
   }
   .tag {
-    background: #dc965a;
-    color: #fff;
+    background: $px-theme;
+    color: $px-white;
   }
 }
 .tag {
   display: inline-block;
-  background: #1c1d24;
+  background: $px-dark;
   padding: 0 10px;
   color: $px-theme;
   border-radius: 4px;
@@ -184,7 +184,7 @@
   .filter {
     padding-left: 0;
     flex-wrap: wrap;
-    background: #fff5ec;
+    background: $px-gray;
     max-width: 408px;
     margin: auto;
     border-radius: 10px;
@@ -205,7 +205,7 @@
   h3 {
     font-size: 35px;
     margin: 30px 0 15px;
-    color: #fff;
+    color: $px-white;
     font-weight: 600;
     @media screen and (max-width: 767px) {
       font-size: 20px;
@@ -248,7 +248,7 @@ section.testimonial,
     border-radius: 4px 0 0 4px;
     background: $px-theme;
     border: 2px solid $px-theme;
-    color: #fff;
+    color: $px-white;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     transition: 0.3s;
     position: relative;
@@ -262,13 +262,13 @@ section.testimonial,
     text-transform: uppercase;
     cursor: pointer;
     &:hover {
-      background: #fff5ec;
+      background: $px-gray;
       a {
         color: #000;
       }
     }
     a {
-      color: #fff;
+      color: $px-white;
     }
   }
   .inner-text {
@@ -316,10 +316,10 @@ section.testimonial,
     }
   }
   .inner-title {
-    color: #fff;
+    color: $px-white;
     text-align: center;
     position: relative;
-    background: #1c1d24;
+    background: $px-dark;
     padding: 10px;
     margin: 0;
     font-weight: 600;
@@ -336,8 +336,8 @@ section.testimonial,
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #1c1d24;
-  color: #fff;
+  background: $px-dark;
+  color: $px-white;
   font-weight: 400 !important;
   font-size: 22px;
   flex-direction: column;
@@ -363,7 +363,7 @@ section.testimonial,
   }
   &.price-sticker {
     background: #ca1d1d;
-    color: #fff;
+    color: $px-white;
     top: auto;
     left: auto;
     right: 20px;
