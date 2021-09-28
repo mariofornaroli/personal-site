@@ -29,12 +29,14 @@ export default function SomeProjects({ posts: projects }) {
                 <Zoom>
                   <div className="feature-box-01 project-box">
                     <Fade bottom>
-                      <div>     
+                      <div>
                         <div className="feature-content">
                           <h5>{project.title}</h5>
                           <p>{project.short_description}</p>
-                        </div>                  
-                        <button className="px-btn px-btn-theme more-btn">
+                        </div>
+                        <button
+                          className="px-btn px-btn-theme more-btn"
+                          onClick={toggleModalOpen}>
                           See Architecture Diagram
                         </button>
                       </div>
