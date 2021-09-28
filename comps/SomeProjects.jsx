@@ -27,17 +27,16 @@ export default function SomeProjects({ posts: projects }) {
               <div className="col-md-6 col-lg-4 my-3" key={project.id}
                 onClick={() => setCurrentProject(project)}>
                 <Zoom>
-                  <div className="feature-box-01">
+                  <div className="feature-box-01 project-box">
                     <Fade bottom>
-                      <div>
-                        <div className="icon">
-                          <i className="ti-layout"></i>
-                        </div>
+                      <div>     
                         <div className="feature-content">
                           <h5>{project.title}</h5>
                           <p>{project.short_description}</p>
-                        </div>
-                        <button onClick={toggleModalOpen}>ARCHITECTURE DIAGRAM</button>
+                        </div>                  
+                        <button className="px-btn px-btn-theme more-btn">
+                          See Architecture Diagram
+                        </button>
                       </div>
                     </Fade>
                   </div>

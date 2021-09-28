@@ -47,6 +47,10 @@
         right: 0;
       }
     }
+    &.more-btn {
+      margin-bottom: 1em;
+      align-self: flex-end;
+    }
   }
   &.px-btn-white {
     background: $px-white;
