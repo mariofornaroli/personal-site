@@ -40,7 +40,7 @@ export default function YoutubeChannel({ videos }) {
                 <div className="col-md-6 col-lg-4 my-3" key={video.etag}
                   onClick={() => openVideo(video)}>
                   <Zoom>
-                    <div className="feature-box-01">
+                    <div className="feature-box-01 yt-box">
                       <Fade bottom>
                         <div>
                           <p>
