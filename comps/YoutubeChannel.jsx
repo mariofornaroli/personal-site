@@ -5,9 +5,9 @@ import Fade from "react-reveal/Fade";
 
 export default function YoutubeChannel({ videos }) {
 
-  const openVideo= (video) => {
+  const openVideo = (video) => {
     const id = video && video.id && video.id.videoId;
-    const url= `https://www.youtube.com/watch?v=${id}`
+    const url = `https://www.youtube.com/watch?v=${id}`
     window.open(url, '_blank').focus();
   }
 
@@ -24,8 +24,10 @@ export default function YoutubeChannel({ videos }) {
                   specializing in creating stylish, modern websites, web
                   services and online stores.
                 </p>
-                <p>For the complete list of videos <a
-                  href={`https://www.youtube.com/channel/${process.env.YT_CHANNEL_ID}`}
+                <p>For the <span className="hilighted
+                ">complete list</span> of videos <a
+                  className="my-channel"
+                  href={`https://www.youtube.com/channel/${process.env.NEXT_PUBLIC_YT_CHANNEL_ID}`}
                   target="_blank">visit my channel</a></p>
               </Fade>
             </div>
@@ -35,8 +37,8 @@ export default function YoutubeChannel({ videos }) {
               const videoInfo = video.snippet;
               if (!videoInfo) return (null)
               return (
-                <div className="col-md-6 col-lg-4 my-3" key={video.etag} 
-                onClick={() => openVideo(video)}>
+                <div className="col-md-6 col-lg-4 my-3" key={video.etag}
+                  onClick={() => openVideo(video)}>
                   <Zoom>
                     <div className="feature-box-01">
                       <Fade bottom>
