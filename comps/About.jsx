@@ -11,11 +11,11 @@ const About = ({ myExpertise, aboutMe }) => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6 my-3">
-              <div className="img-box dark-img-box">
+              <div className="img-box dark-img-box waved-box">
                 <Fade left>
                   {
                     SKILL_TAGS_LABELS.map(tagsKey => {
-                      return (<div className="tags-container" key={tagsKey}>
+                      return (<div className={`tags-container ${tagsKey}`} key={tagsKey}>
                         {parse(myExpertise[tagsKey])}
                       </div>)
                     })

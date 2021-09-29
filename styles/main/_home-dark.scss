@@ -26,7 +26,7 @@
     background: $px-black;
   }
   .main-header.fixed-header {
-    background: $px-dark;
+    background: $px-black;
   }
   .fixed-header.main-header {
     border-color: #2a2a2a;
@@ -46,12 +46,15 @@
   @media (min-width: 992px) {
     .main-header {
       border-bottom-color: rgba(255, 255, 255, 0.15);
+      border: none;
     }
     .main-header .navbar-nav > li {
       border-right-color: rgba(255, 255, 255, 0.15);
+      border: none;
     }
     .main-header .navbar-nav > li {
       border-left-color: rgba(255, 255, 255, 0.15);
+      border: none;
     }
   }
   .fixed-header .navbar-nav > li {
@@ -101,45 +104,56 @@
   }
 
   .after-left-section:after {
-    background: #1a1a1a;
+    background: #04101d;
   }
   .dark-img-box {
     background: #232323;
   }
 
-  .tags-container .skill_level{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 1em;
+  .tags-container {
+    &.tags_be,
+    &.tags_fe {
+      margin-bottom: 1.3em;
+    }
+
+    .skill_level {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
   }
 
   .labelMFO {
     display: inline-block;
-    padding: 2px 16px;
+    padding: 0px 16px;
     background-color: $px-theme;
-    color: $px-white-opaqued  ;
+    color: $px-white-opaqued;
     margin-right: 0.8em;
-    margin-bottom: 1em;
+    margin-bottom: 1.3em;
     border-radius: 2em;
     font-size: 0.9em;
-    letter-spacing: 0.5px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
     text-transform: uppercase;
+    border: 1px solid;
 
     &.label_FE {
-      background-color: $px-FE-tag;
+      background-color: $px-FE-tag-bkc;
+      color: $px-FE-tag-c;
+      border-color: $px-FE-tag-borderc;
     }
     &.label_BE {
-      background-color: $px-BE-tag;
+      background-color: $px-BE-tag-bkc;
+      color: $px-BE-tag-c;
+      border-color: $px-BE-tag-borderc;
     }
-    &.label_IDE {
-      background-color: $px-IDE-tag;
-    }
+    &.label_IDE,
     &.label_Mobile {
-      background-color: $px-mobile-tag;
+      background-color: $px-OTHER-tag-bkc;
+      color: $px-OTHER-tag-c;
+      border-color: $px-OTHER-tag-borderc;
     }
   }
-  
 
   @media (max-width: 991px) {
     .main-header .navbar-nav > li {

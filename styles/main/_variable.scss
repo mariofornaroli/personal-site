@@ -1,13 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 
-$px-theme: #dc965a !default;
+$px-theme: #f1c40f !default;
+$px-theme-contrast: #2c3e50 !default;
 $px-dark: #1c1d24 !default;
+$px-dark-lighter: #08223c !default;
+$px-dark-lighter-transparent: #8898a8 !default;
 
 $px-white: #fff !default;
-$px-black: #131416 !default;
+$px-black: #051627 !default;
+$px-black-darker: #04101d !default;
+$px-black-opaque-semitransparent: #1a3e62e0 !default;
 $px-black-hovered-light: #202124 !default;
 $px-white-opaqued: rgba(255, 255, 255, 0.8) !default;
-$px-text-light: #878e99 !default;
+$px-text-light: #c2c4c7 !default;
 
 $px-gray: #fff5ec !default;;
 
@@ -16,6 +22,8 @@ $px-font-size: 16px !default;
 $px-line-height: 1.7 !default;
 $px-font: "Nunito", monospac !default;
 $px-font-alt: "Nunito", serif !default;
+// $px-font: "Lato", monospac !default;
+// $px-font-alt: "Lato", serif !default;
 
 $px-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px !default;
 $px-shadow-sm: 0 0 30px rgba(0, 0, 0, 0.1%) !default;
@@ -26,8 +34,23 @@ $px-media-sm: 767px !default;
 $px-media-md: 991px !default;
 $px-media-lg: 1200px !default;
 
-$px-FE-tag: #2d59a1 !default;
-$px-BE-tag: #2a855a !default;
-$px-IDE-tag: #762e92 !default;
-$px-mobile-tag: #947e1f !default;
-// $px-mobile-tag: #8d8f22 !default;
+$px-FE-tag-borderc: $px-theme !default;
+$px-FE-tag-bkc: $px-theme !default;
+$px-FE-tag-c: $px-dark-lighter !default;
+
+$px-BE-tag-borderc: $px-text-light !default;
+$px-BE-tag-bkc: $px-text-light !default;
+$px-BE-tag-c: $px-black-darker !default;
+
+// $px-OTHER-tag-borderc: $px-dark-lighter-transparent !default;
+// $px-OTHER-tag-bkc: $px-dark-lighter-transparent !default;
+// $px-OTHER-tag-c: $px-black-darker !default;
+
+// $px-mobile-tag-borderc: $px-dark-lighter-transparent !default;
+// $px-mobile-tag-bkc: $px-dark-lighter-transparent !default;
+// $px-mobile-tag-c: $px-black-darker !default;
+
+$px-OTHER-tag-borderc: $px-dark-lighter-transparent !default;
+$px-OTHER-tag-bkc: transparent !default;
+$px-OTHER-tag-c: $px-dark-lighter-transparent !default;
+

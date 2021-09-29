@@ -83,8 +83,9 @@ const Header = () => {
                                     </a>
                                 </li>
                                 <li className="header-item">
-                                    <a className="nav-link" href="#myYtChannel" onClick={handleClick}>
+                                    <a className="nav-link hilighted" href="#myYtChannel" onClick={handleClick}>
                                         <span>My Youtube Channel</span>
+                                        <img src="/img/hilighted-underline.png" alt="" />
                                     </a>
                                 </li>
                                 <li className="header-item">

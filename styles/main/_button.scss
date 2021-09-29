@@ -25,8 +25,13 @@
     }
   }
   &.px-btn-theme {
-    background: $px-theme;
-    color: $px-white;
+    border-color: $px-theme;
+    border-radius: 4px;
+    color: $px-black;
+    background-color: $px-theme;
+
+    // background: $px-theme;
+    // color: $px-white;
     &:after {
       content: "";
       position: absolute;
@@ -40,16 +45,29 @@
       z-index: -1;
     }
     &:hover {
-      color: $px-white;
-      &:after {
-        width: 100%;
-        left: auto;
-        right: 0;
-      }
+      // color: $px-white;
+      filter: brightness(120%);
+      // &:after {
+      //   width: 100%;
+      //   left: auto;
+      //   right: 0;
+      // }
     }
     &.more-btn {
       margin-bottom: 1em;
       align-self: flex-end;
+    }
+    &.bottom-cta {
+      position: absolute;
+      bottom: 16px;
+      left: 16px;
+    }
+
+    &.outlined {
+      border: 1px solid $px-theme;
+      border-radius: 4px;
+      color: $px-theme;
+      background-color: transparent;
     }
   }
   &.px-btn-white {

@@ -18,7 +18,7 @@ export default function Experiences({ posts }) {
 
   return (
     <>
-      <section id="experience" className="section job-experience-section gray-bg">
+      <section id="experience" className="section job-experience-section">
         <div className="container">
           <div className="row justify-content-center section-title text-center">
             <div className="col-lg-7">

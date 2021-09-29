@@ -13,9 +13,13 @@
     }
   }
 }
-.home-dark .main-header.header-fluid .navbar-nav > li {
-  border: none;
+.home-dark .main-header {
+  background-color: $px-black;
+  .header-fluid .navbar-nav > li {
+    border: none;
+  }
 }
+
 .navbar-toggler,
 .toggler-menu {
   width: 40px;
@@ -130,10 +134,21 @@
   }
 }
 
-
 .header-item {
-  .nav-link span {
-    white-space:nowrap;
+  .nav-link {
+    position: relative;
+    &.hilighted {
+      img {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;        
+      }
+    }
+    span {
+      white-space: nowrap;
+    }
   }
 }
 
