@@ -557,7 +557,7 @@
           border-top-right-radius: 8px;
           overflow: hidden;
           width: 100%;
-          
+
           & > div {
             width: 100%;
           }
@@ -772,6 +772,7 @@
 .job-experience-section {
   .aducation-box,
   .job-experience-box {
+    background: none;
     margin: 0;
     list-style: none;
     padding: 25px;
@@ -781,6 +782,58 @@
         padding-top: 25px;
         margin-top: 20px;
         border-top: 1px dashed rgba($px-white, 0.2);
+      }
+
+      &.job-exp-box {
+        background: none;
+        display: grid;
+        grid-template-columns: 120px 48px 1fr;
+        justify-items: center;
+        .separator-item {
+          width: 2px;
+          height: 100%;
+          background-color: $px-theme;
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            top: 9px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 20px;
+            height: 20px;
+            background-color: $px-white;
+            border: 5px solid $px-theme;
+            border-radius: 50%;
+          }
+        }
+        p {
+          font-size: 1em;
+          color: $px-white;
+        }
+        p.company,
+        p.description {
+          color: $px-text-light;
+        }
+
+        p.date-info {
+          color: $px-theme;
+        }
+
+        .job-info {
+          margin-left: 8px;
+          .job-title {
+            font-size: 1.4em;
+            margin-top: -4px;
+          }
+        .company {
+          margin-bottom: 1em;
+        }
+      }
+
+        + li {
+          border-top: none;
+        }
       }
     }
     span {
@@ -812,6 +865,10 @@
 
 .job-experience-section {
   background-color: #08223c;
+  .feature-box-01.job-experience-box {
+    background: none;
+    box-shadow: none;
+  }
 }
 
 .skill-section {
