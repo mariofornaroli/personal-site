@@ -42,20 +42,28 @@ const Education = ({ posts, languages }) => {
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section id="education" className="section skill-section education-section languages-section">
                 <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-5">
-                            <div className="sm-title">
-                                <h4 className="font-alt">Languages</h4>
-                            </div>
-                            <ul className="education-list dark-bg">
+                    <div className="row d-flex justify-content-center section-title text-center">
+                        <div className="col-lg-7">
+                            <Fade bottom>
+                                <h3 className="font-alt">Languages</h3>
+                            </Fade>
+                        </div>
+                    </div>
+
+                    <div className="row d-flex justify-content-center">
+                        <div className="col-lg-10">
+                            <ul className="education-list dark-bg d-flex justify-content-center">
                                 {languages.map(lang => (
                                     <Fade bottom key={lang.id}>
-                                        <li>
-                                            <span className="theme-bg">{lang.name}</span>
+                                        <li className="education-info language-info">
+                                            <p className="date-info">{lang.name}</p>
                                             {/* <h6>{lang.name}</h6> */}
-                                            <p>{lang.level}</p>
-                                            <p>{lang.description}</p>
+                                            <p className="company">{lang.level}</p>
+                                            <p className="description">{lang.description}</p>
                                         </li>
                                     </Fade>
                                 ))
@@ -65,6 +73,7 @@ const Education = ({ posts, languages }) => {
                     </div>
                 </div>
             </section>
+
         </>
     );
 };
