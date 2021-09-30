@@ -10,7 +10,7 @@ export default function SomeProjects({ posts: projects }) {
   return (
     <>
       <ProjectModal isOpen={modalOpen} toggleModalOpen={toggleModalOpen} currentProject={currentProject} />
-      <section id="someProjects" className="section services-section gray-bg">
+      <section id="someProjects" className="section services-section projects-section gray-bg">
         <div className="container">
           <div className="row justify-content-center section-title text-center">
             <div className="col-lg-7">
