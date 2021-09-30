@@ -953,6 +953,18 @@
   background-color: #08223c;
 }
 
+.section.after-left-section.contact-section {
+  &::after {
+    background: $px-black;
+  }
+  .contct-form {
+    background: $px-dark-lighter;
+    .form-group .form-control {
+      // background: $px-dark-lighter-transparent;
+    }
+  }
+}
+
 .skill-lt {
   &:not(:first-child) {
     margin-top: 30px;
