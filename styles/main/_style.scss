@@ -770,7 +770,7 @@
 ---------------------*/
 .skill-section,
 .job-experience-section {
-  .education-box,
+  .education-list,
   .job-experience-box {
     background: none;
     margin: 0;
@@ -807,29 +807,14 @@
             border-radius: 50%;
           }
         }
-        p {
-          font-size: 1em;
-          color: $px-white;
-        }
-        p.company,
-        p.description {
-          color: $px-text-light;
-        }
-
-        p.date-info {
-          color: $px-theme;
-        }
 
         .job-info {
           margin-left: 8px;
+
           .job-title {
-            font-size: 1.4em;
             margin-top: -4px;
           }
-        .company {
-          margin-bottom: 1em;
         }
-      }
 
         + li {
           border-top: none;
@@ -868,6 +853,59 @@
   .feature-box-01.job-experience-box {
     background: none;
     box-shadow: none;
+  }
+}
+
+.job-exp-box,
+.education-info {
+  position: relative;
+  p {
+    font-size: 1em;
+    color: $px-white;
+  }
+  p.job-title {
+    font-size: 1.4em;
+  }
+  p.company,
+  p.description {
+    color: $px-text-light;
+  }
+
+  p.company {
+    margin-bottom: 1em;
+  }
+
+  p.date-info {
+    color: $px-theme;
+  }
+
+  .graduation-icon {
+    display: none;
+    color: $px-theme;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    font-size: 1.9rem;
+  }
+
+  &:first-of-type {
+    .graduation-icon {
+      display: block;
+    }
+  }
+}
+
+.education-section {
+  .education-list {
+    box-shadow: none;
+    li.education-info {
+      background: $px-black;
+      width: 420px;
+      border-top: none;
+      padding: 2.2em;
+      margin: 1.5em;
+      box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+    }
   }
 }
 

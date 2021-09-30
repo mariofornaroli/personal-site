@@ -2,15 +2,6 @@ import React, { useMemo } from "react";
 import Fade from "react-reveal/Fade";
 import { getOrderedPostsBy } from './../utils/utils';
 
-const ServiceContent = [
-  {
-    icon: "ti-ruler-pencil",
-    title: "Development",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-  }
-];
-
 export default function Experiences({ posts }) {
 
   let orderedPosts = [...posts]

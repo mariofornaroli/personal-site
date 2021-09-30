@@ -1,5 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { getOrderedPostsBy } from './../utils/utils';
 
 const Education = ({ posts, languages }) => {
@@ -9,40 +11,44 @@ const Education = ({ posts, languages }) => {
 
     return (
         <>
-            <section id="education" className="section skill-section">
+            <section id="education" className="section skill-section education-section">
                 <div className="container">
-                    {/* <div className="row justify-content-center section-title text-center">
+                    <div className="row d-flex justify-content-center section-title text-center">
                         <div className="col-lg-7">
                             <Fade bottom>
-                                <h3 className="font-alt">Education and Languages</h3>
+                                <h3 className="font-alt">Education</h3>
                             </Fade>
                         </div>
-                    </div> */}
+                    </div>
 
-                    <div className="row">
-                        <div className="col-lg-7">
-                            <div className="sm-title">
-                                <h4 className="font-alt">Education</h4>
-                            </div>
-                            <ul className="education-box dark-bg">
+                    <div className="row d-flex justify-content-center">
+                        <div className="col-lg-8">
+                            <ul className="education-list dark-bg d-flex justify-content-center">
                                 {orderedPosts.map(op => (
                                     <Fade bottom key={op.id}>
-                                        <li>
-                                            <span className="theme-bg">{op.date_range}</span>
-                                            <h6>{op.job_title}</h6>
-                                            <p>{op.company}</p>
-                                            <p>{op.description_1}</p>
+                                        <li className="education-info">
+                                            <div className="icon graduation-icon">
+                                                <FontAwesomeIcon size={"lg"} icon={faGraduationCap} />
+                                            </div>
+                                            <p className="date-info">{op.date_range}</p>
+                                            <p className="job-title">{op.job_title}</p>
+                                            <p className="company">{op.company}</p>
+                                            <p className="description">{op.description_1}</p>
                                         </li>
                                     </Fade>
                                 ))
                                 }
                             </ul>
                         </div>
+                    </div>
+                </div>
+                <div className="container">
+                    <div className="row justify-content-center">
                         <div className="col-lg-5">
                             <div className="sm-title">
                                 <h4 className="font-alt">Languages</h4>
                             </div>
-                            <ul className="education-box dark-bg">
+                            <ul className="education-list dark-bg">
                                 {languages.map(lang => (
                                     <Fade bottom key={lang.id}>
                                         <li>
