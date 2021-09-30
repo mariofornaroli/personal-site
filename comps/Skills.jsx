@@ -12,7 +12,7 @@ const Skills = ({posts}) => {
                                 <h4 className="font-alt">Education</h4>
                             </div>
 
-                            <ul className="aducation-box theme-bg">
+                            <ul className="education-box theme-bg">
                                 <Fade bottom>
                                     <li>
                                         <span className="dark-bg">2010-2012</span>
@@ -36,7 +36,7 @@ const Skills = ({posts}) => {
                                 </Fade>
                             </ul>
 
-                            {/* End  .aducation-box */}
+                            {/* End  .education-box */}
                         </div>
                         {/* End .col */}
 
@@ -44,7 +44,7 @@ const Skills = ({posts}) => {
                             <div className="sm-title">
                                 <h4 className="font-alt">Experience</h4>
                             </div>
-                            <ul className="aducation-box dark-bg">
+                            <ul className="education-box dark-bg">
 
                                 <Fade bottom>
                                     <li>
@@ -68,7 +68,7 @@ const Skills = ({posts}) => {
                                     </li>
                                 </Fade>
                             </ul>
-                            {/* End  .aducation-box */}
+                            {/* End  .education-box */}
                         </div>
                         {/* End .col */}
 

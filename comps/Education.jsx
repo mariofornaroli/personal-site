@@ -24,7 +24,7 @@ const Education = ({ posts, languages }) => {
                             <div className="sm-title">
                                 <h4 className="font-alt">Education</h4>
                             </div>
-                            <ul className="aducation-box dark-bg">
+                            <ul className="education-box dark-bg">
                                 {orderedPosts.map(op => (
                                     <Fade bottom key={op.id}>
                                         <li>
@@ -42,7 +42,7 @@ const Education = ({ posts, languages }) => {
                             <div className="sm-title">
                                 <h4 className="font-alt">Languages</h4>
                             </div>
-                            <ul className="aducation-box dark-bg">
+                            <ul className="education-box dark-bg">
                                 {languages.map(lang => (
                                     <Fade bottom key={lang.id}>
                                         <li>
