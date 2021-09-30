@@ -130,7 +130,7 @@ const Contact = () => {
                     <span className="media-body">
                       {/* Via Toso Montanari 22 , <br /> */}
                       Bologne, Italy <br />
-                      40138, Italy.
+                      40138, Italy
                     </span>
                   </div>
                   {/* End media */}

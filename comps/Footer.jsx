@@ -17,7 +17,7 @@ const SocialShare = [
 const Footer = () => {
     return (
         <>
-            <footer className="footer white">
+            <footer className="footer footer-section white">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6 my-2">
