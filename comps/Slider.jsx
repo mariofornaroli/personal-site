@@ -50,7 +50,7 @@ const Slider = ({ aboutMe }) => {
 
         <div className="scroll-bottom go-to">
           <a href="#about">Scroll</a>
-        </div>
+        </div> 
 
         {/* End bottom scroll */}
 
