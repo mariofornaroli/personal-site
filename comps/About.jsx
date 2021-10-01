@@ -4,7 +4,6 @@ import parse from 'html-react-parser';
 import { SKILL_TAGS_LABELS } from './../utils/utils'
 
 const About = ({ myExpertise, aboutMe }) => {
-
   return (
     <>
       <section id="about" className="section about-section after-left-section">
@@ -32,8 +31,9 @@ const About = ({ myExpertise, aboutMe }) => {
                     A <span className="color-theme">Software Engineer</span> graduated
                     in Italy in 2009 <span className="color-theme">passionate</span> about development
                   </h5>
-                  {parse(myExpertise.long_description)}
-
+                  <div className="my-long-description">
+                    {parse(myExpertise.long_description_shorter)}
+                  </div>
                   <div className="row about-list">
                     <div className="col-md-6">
                       <div className="media">

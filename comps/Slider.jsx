@@ -27,20 +27,16 @@ const Slider = ({ aboutMe }) => {
                   Web Developer
                 </h1>
                 <h4>with {yearOfExperience}+ years of professional experience</h4>
-                <div className="btn-bar mt-4">
+                <div className="btn-bar mt-4 main-cta">
                   <a className="px-btn px-btn-theme btn-md" href="#about">
                     My Expertise
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 video-container d-flex justify-content-center">
               <video
-                controls
-                style={{ 
-                  width: '640px',
-                  borderRadius: '7px',
-                  overflow: 'hidden'}}>
+                controls>
                 <source src={process.env.INTRO_VIDEO_URL} type="video/mp4" />
               </video>
             </div>
@@ -50,7 +46,7 @@ const Slider = ({ aboutMe }) => {
 
         <div className="scroll-bottom go-to">
           <a href="#about">Scroll</a>
-        </div> 
+        </div>
 
         {/* End bottom scroll */}
 

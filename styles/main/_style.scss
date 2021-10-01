@@ -423,6 +423,13 @@
   }
 }
 .about-me {
+  .my-long-description {
+    strong {
+      color: $px-theme;
+      font-weight: 700;
+    }
+  }
+
   .about-list {
     padding: 10px 0 15px;
   }
@@ -1300,6 +1307,73 @@
   h1 {
     span {
       color: $px-theme;
+    }
+  }
+}
+
+.video-container {
+  video {
+    width: 640px;
+    border-radius: 7px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: $px-media-xssm) {
+  .video-container {
+    video {
+      width: 350px;
+    }
+  }
+}
+
+@media (max-width: $px-media-xsm) {
+  .video-container {
+    video {
+      width: 440px;
+    }
+  }
+
+  .main-header .logo-name {
+    margin-left: 16px;
+  }
+
+  section {
+    .row > * {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    &.home-banner {
+      padding-top: 0px;
+      .hb-typo {
+        text-align: center;
+        h1 {
+          font-size: 38px;
+          line-height: 44px;
+        }
+
+        h4 {
+          margin-bottom: 34px;
+        }
+
+        .main-cta {
+          margin-top: 24px !important;
+          margin-bottom: 28px;
+        }
+      }
+    }
+
+    &.about-section {
+      padding-top: 60px;
+    }
+  }
+}
+
+@media (max-width: $px-media-msm) {
+  .video-container {
+    video {
+      width: 540px;
     }
   }
 }

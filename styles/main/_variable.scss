@@ -29,7 +29,9 @@ $px-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px !default;
 $px-shadow-sm: 0 0 30px rgba(0, 0, 0, 0.1%) !default;
 
 // Breakpoints
+$px-media-xssm: 450px !default;
 $px-media-xsm: 567px !default;
+$px-media-msm: 650px !default;
 $px-media-sm: 767px !default;
 $px-media-md: 991px !default;
 $px-media-lg: 1200px !default;
