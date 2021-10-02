@@ -1503,13 +1503,15 @@
         padding: 8px;
       }
     }
+  }
+}
 
-    &.about-section {
-      .img-box.dark-img-box.waved-box {
-        padding: 1em;
-        .labelMFO {
-          font-size: 0.85em;
-        }
+@media (max-width: $px-media-xxssm) {
+  &.about-section {
+    .img-box.dark-img-box.waved-box {
+      padding: 1em;
+      .labelMFO {
+        font-size: 0.85em;
       }
     }
   }
