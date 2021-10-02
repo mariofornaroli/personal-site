@@ -22,7 +22,6 @@
     "next": "10.0.4",
     "node-sass": "^4.7.2",
     "react": "17.0.1",
-    "react-animated-cursor": "^2.2.0",
     "react-dom": "17.0.1",
     "react-hook-form": "^7.6.3",
     "react-icons": "^4.2.0",
