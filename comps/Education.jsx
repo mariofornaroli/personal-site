@@ -23,7 +23,7 @@ const Education = ({ posts, languages }) => {
 
                     <div className="row d-flex justify-content-center">
                         <div className="col-lg-8">
-                            <ul className="education-list dark-bg d-flex justify-content-center">
+                            <ul className="education-list degrees-list dark-bg d-flex justify-content-center">
                                 {orderedPosts.map(op => (
                                     <Fade bottom key={op.id}>
                                         <li className="education-info">
