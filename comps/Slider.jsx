@@ -35,10 +35,8 @@ const Slider = ({ aboutMe }) => {
               </div>
             </div>
             <div className="col-lg-6 video-container d-flex justify-content-center">
-              <video
-                controls>
-                <source src={process.env.INTRO_VIDEO_URL} type="video/mp4" />
-              </video>
+              <iframe src="https://www.youtube.com/embed/yknfQp4LGUg" 
+              frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>

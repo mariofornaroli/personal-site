@@ -1314,8 +1314,10 @@
 }
 
 .video-container {
-  video {
+  video,
+  iframe {
     width: 640px;
+    height: 360px;
     border-radius: 7px;
     overflow: hidden;
   }
@@ -1456,8 +1458,10 @@
 
 @media (max-width: $px-media-msm) {
   .video-container {
-    video {
+    video,
+    iframe {
       width: 540px;
+      height: 304px;
     }
   }
 
@@ -1484,16 +1488,20 @@
 
 @media (max-width: $px-media-xsm) {
   .video-container {
-    video {
+    video,
+    iframe {
       width: 440px;
+      height: 248px;
     }
   }
 }
 
 @media (max-width: $px-media-xssm) {
   .video-container {
-    video {
+    video,
+    iframe {
       width: 350px;
+      height: 197px;
     }
   }
 
