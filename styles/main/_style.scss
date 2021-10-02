@@ -918,9 +918,10 @@
     }
 
     li.language-info {
+      width: 320px;
       margin: 0;
       box-shadow: none;
-      border-left: 1px dashed rgba($px-white, 0.2);
+      // border-left: 1px dashed rgba($px-white, 0.2);
       background: none;
       padding: 0 2em;
       display: flex;
@@ -1320,92 +1321,13 @@
   }
 }
 
-@media (max-width: $px-media-xssm) {
-  .video-container {
-    video {
-      width: 350px;
-    }
-  }
+/*  -------------------------------------   Responsiveness   -------------------------------------  */
 
-  section {
-    &.education-section {
-      .education-list.degrees-list {
-        padding: 8px;
-      }
-    }
-  }
-}
-
-@media (max-width: $px-media-xsm) {
-  .video-container {
-    video {
-      width: 440px;
-    }
-  }
-
+@media (max-width: $px-media-md) {
   .main-header {
     .logo-name {
       margin-left: 16px;
     }
-  }
-
-  section {
-    .row > * {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-
-    &.home-banner {
-      padding-top: 0px;
-      .hb-typo {
-        text-align: center;
-        h1 {
-          font-size: 38px;
-          line-height: 44px;
-        }
-
-        h4 {
-          margin-bottom: 34px;
-        }
-
-        .main-cta {
-          margin-top: 24px !important;
-          margin-bottom: 28px;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: $px-media-msm) {
-  .video-container {
-    video {
-      width: 540px;
-    }
-  }
-
-  .section {
-    &.education-section {
-      &.languages-section {
-        padding-bottom: 80px;
-      }
-
-      .education-list {
-        li.language-info {
-          border: none;
-          margin-top: 20px;
-
-          &:first-of-type {
-            margin-top: 0px;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: $px-media-md) {
-  .main-header {
     &.fixed-header {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
     }
@@ -1428,7 +1350,36 @@
     }
   }
 
+  section,
   .section {
+    .row > * {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    &.home-banner {
+      .full-screen {
+        padding-top: 110px;
+      }
+      padding-top: 0px;
+      .hb-typo {
+        text-align: center;
+        h1 {
+          font-size: 48px;
+          line-height: 56px;
+        }
+
+        h4 {
+          margin-bottom: 34px;
+        }
+
+        .main-cta {
+          margin-top: 24px !important;
+          margin-bottom: 28px;
+        }
+      }
+    }
+
     &.about-section,
     &.job-experience-section,
     &.education-section,
@@ -1478,6 +1429,78 @@
     &.education-section {
       .education-list.degrees-list {
         padding-top: 8px;
+      }
+    }
+  }
+}
+
+@media (max-width: $px-media-sm) {
+  section,
+  .section {
+    &.home-banner {
+      .full-screen {
+        padding-top: 90px;
+      }
+    }
+
+    &.home-banner {
+      .hb-typo {
+        h1 {
+          font-size: 38px;
+          line-height: 44px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $px-media-msm) {
+  .video-container {
+    video {
+      width: 540px;
+    }
+  }
+
+  .section {
+    &.education-section {
+      &.languages-section {
+        padding-bottom: 80px;
+      }
+
+      .education-list {
+        li.language-info {
+          width: 450px;
+          border: none;
+          margin-top: 20px;
+
+          &:first-of-type {
+            margin-top: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $px-media-xsm) {
+  .video-container {
+    video {
+      width: 440px;
+    }
+  }
+}
+
+@media (max-width: $px-media-xssm) {
+  .video-container {
+    video {
+      width: 350px;
+    }
+  }
+
+  section {
+    &.education-section {
+      .education-list.degrees-list {
+        padding: 8px;
       }
     }
   }
