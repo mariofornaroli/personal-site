@@ -21,12 +21,16 @@ const Header = () => {
         window.addEventListener("scroll", changeBackground);
     }
 
+    const handleLogoHomeClick = (e) => {
+        e.stopPropagation();
+    }
+
     return (
         <>
             <header className={navbar ? "main-header fixed-header" : "main-header"}>
                 <nav className="container">
                     <div className=" header-transparent">
-                        <a className="logo-name" href="#home" onClick={handleClick}>Mario Fornaroli</a>
+                        <a className="logo-name" href="#home" onClick={handleLogoHomeClick}>Mario Fornaroli</a>
                         <button
                             className="navbar-toggler"
                             type="button"
