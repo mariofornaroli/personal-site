@@ -66,7 +66,7 @@ const About = ({ myExpertise, aboutMe }) => {
                   <div className="btn-bar">
                     <a
                       className="px-btn px-btn-theme"
-                      href="img/resume.png"
+                      href="img/Mario_Fornaroli_CV.pdf"
                       download
                     >
                       Download CV
