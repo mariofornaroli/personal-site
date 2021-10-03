@@ -36,7 +36,7 @@ const Slider = ({ aboutMe }) => {
             </div>
             <div className="col-lg-6 video-container d-flex justify-content-center">
               <iframe src="https://www.youtube.com/embed/yknfQp4LGUg" 
-              frameborder="0" allowfullscreen></iframe>
+              frameBorder="0" allowFullScreen></iframe>
             </div>
           </div>
         </div>

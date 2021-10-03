@@ -19,6 +19,7 @@ const About = ({ myExpertise, aboutMe }) => {
                       </div>)
                     })
                   }
+                  <p className="others-skills">...and other tools and platforms daily used</p>
                 </Fade>
               </div>
             </div>
