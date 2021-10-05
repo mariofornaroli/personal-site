@@ -10,7 +10,7 @@ const Slider = ({ aboutMe }) => {
       {/*  Home Banner */}
       <section
         id="home"
-        className="home-banner overlay overlay-65"
+        className="home-banner overlay"
       >
         <div className="container">
           <div className="row d-flex align-items-center full-screen">

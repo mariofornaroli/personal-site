@@ -13,9 +13,9 @@
   }
 }
 
-.home-banner {
+.home-banner{
   position: relative;
-  background: url("/img/bk_home.jpg");
+  background: url("/img/bk_home.jpg") no-repeat center;
   &::after {
     content: "";
     position: absolute;
