@@ -7,6 +7,11 @@ export default function SomeProjects({ posts: projects }) {
   const [modalOpen, setModalOpen] = useState(false)
   const [currentProject, setCurrentProject] = useState(null)
   const toggleModalOpen = () => setModalOpen(!modalOpen);
+
+  const projectSelectedHandler = (_project) => {
+    setCurrentProject(_project);
+    toggleModalOpen();
+  }
   return (
     <>
       <ProjectModal isOpen={modalOpen} toggleModalOpen={toggleModalOpen} currentProject={currentProject} />
@@ -25,9 +30,9 @@ export default function SomeProjects({ posts: projects }) {
           <div className="row">
             {projects.map((project) => (
               <div className="col-md-6 col-lg-4 my-3" key={project.id}
-                onClick={() => setCurrentProject(project)}>
+                onClick={() => projectSelectedHandler(project)}>
                 <Zoom>
-                  <div className="feature-box-01 project-box">
+                  <div className="feature-box-01 project-box no-animation">
                     <Fade bottom>
                       <div>
                         <div className="feature-content">
@@ -35,8 +40,7 @@ export default function SomeProjects({ posts: projects }) {
                           <p>{project.short_description}</p>
                         </div>
                         <button
-                          className="px-btn px-btn-theme more-btn"
-                          onClick={toggleModalOpen}>
+                          className="px-btn px-btn-theme more-btn">
                           See Architecture Diagram
                         </button>
                       </div>

@@ -299,7 +299,10 @@
 .article {
   margin: 15px 0 30px;
   .article-title {
-    padding: 15px 0 20px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     h6 {
       font-size: 14px;
       font-weight: 700;
@@ -375,6 +378,14 @@
   }
   .tag-cloud {
     padding-top: 10px;
+  }
+}
+
+.long_description {
+  color: $px-dark;
+  ul, li {
+    list-style: square;
+    margin-top: 8px;
   }
 }
 

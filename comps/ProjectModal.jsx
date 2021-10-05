@@ -1,6 +1,7 @@
 import React from "react";
 import { CSSTransition } from 'react-transition-group';
 import Modal from 'react-modal';
+import SanitizedHTML from 'react-sanitized-html';
 
 export default function ProjectModal({ isOpen, toggleModalOpen, currentProject }) {
   return (
@@ -18,7 +19,7 @@ export default function ProjectModal({ isOpen, toggleModalOpen, currentProject }
           overlayClassName="custom-overlay"
           closeTimeoutMS={500}
         >
-          <div>
+          <div className="project-modal">
             <button className="close-modal" onClick={toggleModalOpen}>
               <img src="/img/cancel.svg" alt="close icon" />
             </button>
@@ -31,13 +32,19 @@ export default function ProjectModal({ isOpen, toggleModalOpen, currentProject }
                       <h2>
                         {currentProject.title}
                       </h2>
-                      <div className="media">
-                        <div className="avatar">
-                          <img src={currentProject.image} alt="Project Architecture" />
-                        </div>
+                    </div>
+                    <div className="media">
+                      <div className="avatar">
+                        <img src={currentProject.image_link} alt="Project Architecture" />
                       </div>
                     </div>
-
+                    <div className="long_description">
+                      <SanitizedHTML
+                        allowedAttributes={{ 'a': ['href'] }}
+                        allowedTags={['div', 'ul', 'li', 'p']}
+                        html={currentProject.long_description}
+                      />
+                    </div>
                   </article>
                 </div>
               </div>

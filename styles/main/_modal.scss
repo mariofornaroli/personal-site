@@ -20,7 +20,7 @@
   border-radius: 4px;
   outline: none;
   .box_inner {
-    height: 75vh;
+    max-height: 83vh;
     width: 1000px;
     overflow-y: auto;
 
@@ -47,7 +47,7 @@
     }
   }
   .scrollable {
-    padding: 50px;
+    padding: 12px 48px;
     @media (max-width: 767px) {
       padding: 30px 15px;
     }
@@ -67,6 +67,21 @@
   .article-comment {
     @media (max-width: 767px) {
       padding: 30px 15px;
+    }
+  }
+
+  .project-modal {
+    .media {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 24px;
+      .avatar {
+        width: 70%;
+        @media (max-width: 599px) {
+          width: 90%;
+        }
+      }
     }
   }
 }
