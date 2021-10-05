@@ -382,10 +382,13 @@
 }
 
 .long_description {
+  margin-top: 12px;
   color: $px-dark;
-  ul, li {
+  font-size: 1.05em;
+  ul,
+  li {
     list-style: square;
-    margin-top: 8px;
+    margin-top: 10px;
   }
 }
 
